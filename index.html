@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulador de Examen ELITE</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <img src="logos/logo1.png" alt="Logo 1" class="logo" onerror="this.outerHTML='<div class=&quot;logo logo-placeholder&quot;>Logo 1</div>'">
+    <div class="titulo">
+      <h1>Bienvenido al simulador de examen de ingreso ELITE</h1>
+      <p>Biblioteca modular de simuladores académicos</p>
+    </div>
+    <img src="logos/logo2.png" alt="Logo 2" class="logo" onerror="this.outerHTML='<div class=&quot;logo logo-placeholder&quot;>Logo 2</div>'">
+  </header>
+  <main>
+    <section id="inicio" class="seccion">
+      <h2>Simulador de Examen de Ingreso</h2>
+      <button class="boton-principal" onclick="mostrarSeccion('biblioteca')">Ingresar a biblioteca de simuladores</button>
+    </section>
+    <section id="biblioteca" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('inicio')">Regresar</button>
+      <h2>Selecciona el nivel educativo</h2>
+      <div class="contenedor-botones">
+        <button class="boton-grande" onclick="mostrarSeccion('bachillerato')">Bachillerato</button>
+        <button class="boton-grande" onclick="mostrarSeccion('universidad')">Universidad</button>
+      </div>
+    </section>
+    <section id="bachillerato" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('biblioteca')">Regresar</button>
+      <h2>Simuladores de Bachillerato</h2>
+      <div class="lista-botones">
+        <button class="boton-lista" onclick="mostrarSimuladores('ECOEMS', 'bachillerato')">ECOEMS</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('CENEVAL EXANI I', 'bachillerato')">CENEVAL EXANI I</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('UACH Bachillerato', 'bachillerato')">UACH</button>
+      </div>
+    </section>
+    <section id="universidad" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('biblioteca')">Regresar</button>
+      <h2>Simuladores de Universidad</h2>
+      <div class="lista-botones">
+        <button class="boton-lista" onclick="mostrarSimuladores('UNAM', 'universidad')">UNAM</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('IPN', 'universidad')">IPN</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('UAM', 'universidad')">UAM</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('EXANI II', 'universidad')">EXANI II</button>
+        <button class="boton-lista" onclick="mostrarSimuladores('UACH Universidad', 'universidad')">UACH</button>
+      </div>
+    </section>
+    <section id="simuladores" class="seccion oculto">
+      <button class="boton-regresar" onclick="regresarCategoria()">Regresar</button>
+      <h2 id="tituloSimulador">Simuladores</h2>
+      <div class="lista-botones" id="contenedorSimuladores"></div>
+    </section>
+    <section id="configuracionExamen" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('simuladores')">Regresar</button>
+      <h2 id="tituloConfigExamen">Configuración del examen</h2>
+      <div class="panel-config">
+        <label class="switch-linea"><input type="checkbox" id="activarContador"> Activar contador regresivo</label>
+        <p id="duracionTexto">Duración: -- minutos</p>
+        <button class="boton-principal" onclick="iniciarExamenDesdeConfig()">Comenzar examen</button>
+      </div>
+    </section>
+    <section id="examen" class="examen-pantalla oculto">
+      <div class="franja-lateral"><span>ELITE</span><span>✦</span><span id="franjaInstitucion">SIM</span><span>✦</span><span>EXAMEN</span></div>
+      <div class="hoja-examen">
+        <div class="encabezado-examen">
+          <div><h1 id="materiaActual">Materia</h1><p id="progresoPregunta">Pregunta -- de --</p></div>
+          <div id="contador" class="contador oculto">180:00</div>
+        </div>
+        <div id="contenidoVisible" class="zona-pregunta"></div>
+        <div class="zona-opciones" id="zonaOpciones"></div>
+        <div class="navegacion-estilo-examen">
+          <button onclick="preguntaAnterior()">◀◀ ANTERIOR</button>
+          <button onclick="preguntaSiguiente()">SIGUIENTE ▶▶</button>
+          <button class="boton-finalizar" onclick="finalizarExamen(false)">FINALIZAR</button>
+        </div>
+      </div>
+    </section>
+    <section id="resultados" class="seccion oculto">
+      <h2>Resultados del examen</h2>
+      <div id="resumenResultados"></div>
+      <h3>Resultados por materia</h3>
+      <div id="resultadosPorMateria"></div>
+      <button class="boton-principal" onclick="mostrarRevision()">Revisar respuestas</button>
+      <button class="boton-regresar" onclick="location.reload()">Volver al inicio</button>
+    </section>
+    <section id="revision" class="seccion oculto">
+      <button class="boton-regresar" onclick="mostrarSeccion('resultados')">Regresar a resultados</button>
+      <h2>Revisión del examen</h2>
+      <div id="contenedorRevision"></div>
+    </section>
+  </main>
+  <footer>ELITE | Simulador de examen de ingreso</footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
