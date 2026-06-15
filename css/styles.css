@@ -873,35 +873,4 @@ button {
   .footer-aviso {
     font-size: 0.78rem;
   }
-.seccion,
-.panel-config,
-#resultados,
-#revision {
-  position: relative;
-  overflow: hidden;
-}
-
-.seccion::before,
-.panel-config::before,
-#resultados::before,
-#revision::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("../logos/marca_agua.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 65%;
-  opacity: 1.0;
-  pointer-events: none;
-  z-index: 0;
-}
-
-.seccion > *,
-.panel-config > *,
-#resultados > *,
-#revision > * {
-  position: relative;
-  z-index: 1;
-}
 }
