@@ -5,6 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Simulador de Examen ELITE</title>
   <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Motor para renderizar notación matemática en preguntas y respuestas.
+       Usa en los JSON: \(x^2\), \[\frac{a}{b}\], \(\sqrt{x}\), etc. -->
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(", "\\)"], ["$", "$"]],
+        displayMath: [["\\[", "\\]"], ["$$", "$$"]],
+        processEscapes: true
+      },
+      options: {
+        skipHtmlTags: ["script", "noscript", "style", "textarea", "pre", "code"]
+      }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
   <header>
@@ -48,6 +64,21 @@
         <button class="boton-lista" onclick="mostrarSimuladores('UACH Universidad', 'universidad')">UACH</button>
       </div>
     </section>
+    <section id="materiasSimulador" class="seccion oculto">
+  <button class="boton-regresar" onclick="mostrarSeccion('simuladores')">Regresar</button>
+
+  <h2 id="tituloMateriasSimulador">Simulador por materia</h2>
+
+  <div class="lista-botones" id="contenedorMaterias"></div>
+</section>
+
+<section id="simuladoresMateria" class="seccion oculto">
+  <button class="boton-regresar" onclick="mostrarSeccion('materiasSimulador')">Regresar</button>
+
+  <h2 id="tituloSimuladoresMateria">Materia</h2>
+
+  <div class="lista-botones" id="contenedorSimuladoresMateria"></div>
+</section>
     <section id="simuladores" class="seccion oculto">
       <button class="boton-regresar" onclick="regresarCategoria()">Regresar</button>
       <h2 id="tituloSimulador">Simuladores</h2>
@@ -58,6 +89,7 @@
       <h2 id="tituloConfigExamen">Configuración del examen</h2>
       <div class="panel-config">
         <label class="switch-linea"><input type="checkbox" id="activarContador"> Activar contador regresivo</label>
+        <label class="switch-linea"><input type="checkbox" id="activarRespuestasOcultas" checked> Ocultar respuestas hasta presionar “Ver respuesta”</label>
         <p id="duracionTexto">Duración: -- minutos</p>
         <button class="boton-principal" onclick="iniciarExamenDesdeConfig()">Comenzar examen</button>
       </div>
@@ -92,7 +124,37 @@
       <div id="contenedorRevision"></div>
     </section>
   </main>
-  <footer>ELITE | Simulador de examen de ingreso</footer>
+
+<footer class="footer-elite">
+  <div class="footer-contenido">
+    <div class="footer-bloque footer-marca">
+      <h3>Curso Elite</h3>
+      <p>Plataforma de simulación y preparación para exámenes de admisión.</p>
+      <p>Acolman, Estado de México, México.</p>
+    </div>
+
+    <div class="footer-bloque">
+      <h4>Contacto</h4>
+      <p><strong>WhatsApp:</strong> 55 2772 3492</p>
+      <p><strong>Instagram profesional:</strong> @profe_linus.31</p>
+      <p><strong>Instagram personal:</strong> @narcisisael_31</p>
+    </div>
+
+    <div class="footer-bloque">
+      <h4>Redes sociales</h4>
+      <p><strong>Facebook:</strong> Curso Elite</p>
+      <p><strong>Instagram:</strong> @profe_linus.31</p>
+    </div>
+  </div>
+
+  <div class="footer-legal">
+    <p>© 2026 Curso Elite. Todos los derechos reservados.</p>
+    <p class="footer-aviso">
+      Curso Elite es una plataforma independiente. Este sitio no pertenece, no representa y no está afiliado oficialmente con UNAM, IPN, UAM, CENEVAL, ECOEMS, UACH ni con ninguna institución mencionada. Los nombres de instituciones se usan únicamente como referencia académica.
+    </p>
+  </div>
+</footer>
+
   <script src="js/script.js"></script>
 </body>
 </html>
