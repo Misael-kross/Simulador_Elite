@@ -1,4 +1,7 @@
 let ultimaCategoria = "biblioteca";
+let categoriaActual = "";
+let materiaActualSeleccionada = "";
+
 let examenActual = null;
 let preguntas = [];
 let preguntaActual = 0;
@@ -6,55 +9,273 @@ let respuestasUsuario = {};
 let contadorIntervalo = null;
 let tiempoRestanteSegundos = 0;
 let contadorActivado = false;
+let respuestasOcultasActivadas = true;
 let respuestaVisible = null;
 
-const rutasSimuladores = {
-  ECOEMS_1: "preguntas/ecoems/simulador_1.json",
-  UNAM_1: "preguntas/unam/simulador_1.json"
+const rutasBase = {
+  ECOEMS: "preguntas/ecoems/",
+  "CENEVAL EXANI I": "preguntas/ceneval_exani_i/",
+  "UACH Bachillerato": "preguntas/uach_bachillerato/",
+
+  UNAM: "preguntas/unam/",
+  IPN: "preguntas/ipn/",
+  UAM: "preguntas/uam/",
+  "EXANI II": "preguntas/exani_ii/",
+  "UACH Universidad": "preguntas/uach_universidad/"
 };
 
+const materiasPorCategoria = {
+  ECOEMS: [
+    "Habilidad Verbal",
+    "Habilidad Matemática",
+    "Matemáticas",
+    "Física",
+    "Química",
+    "Biología",
+    "Español",
+    "Historia de México",
+    "Historia Universal",
+    "Geografía",
+    "Formación Cívica y Ética"
+  ],
+
+  "CENEVAL EXANI I": [
+    "Pensamiento científico",
+    "Comprensión lectora",
+    "Redacción indirecta",
+    "Pensamiento matemático"
+  ],
+
+  "UACH Bachillerato": [
+    "Habilidades numéricas",
+    "Habilidades verbales",
+    "Matemáticas",
+    "Física",
+    "Química",
+    "Biología",
+    "Geografía",
+    "Lengua y Literatura",
+    "Historia mundial",
+    "Historia de México"
+  ],
+
+  UNAM: [
+    "Español",
+    "Física",
+    "Matemáticas",
+    "Literatura",
+    "Geografía",
+    "Biología",
+    "Química",
+    "Historia Universal",
+    "Historia de México"
+  ],
+
+  IPN: [
+    "Matemáticas",
+    "Competencia escrita",
+    "Competencia lectora",
+    "Inglés",
+    "Historia",
+    "Biología",
+    "Química",
+    "Física"
+  ],
+
+  UAM: [
+    "Razonamiento verbal",
+    "Comprensión lectora",
+    "Comunicación escrita",
+    "Razonamiento matemático",
+    "Ciencias Básicas e Ingeniería",
+    "Ciencias Biológicas y de la Salud",
+    "Ciencias Sociales y Humanidades",
+    "Ciencias y Artes para el Diseño"
+  ],
+
+  "EXANI II": [
+    "Comprensión lectora",
+    "Redacción indirecta",
+    "Pensamiento matemático",
+    "Inglés como lengua extranjera diagnóstico",
+    "Administración",
+    "Aritmética",
+    "Biología",
+    "Cálculo diferencial e integral",
+    "Ciencias de la salud",
+    "Derecho",
+    "Economía",
+    "Filosofía",
+    "Física",
+    "Historia",
+    "Literatura",
+    "Matemáticas financieras",
+    "Premedicina",
+    "Probabilidad y estadística",
+    "Psicología",
+    "Química",
+    "Ciencias experimentales",
+    "Ciencias sociales"
+  ],
+
+  "UACH Universidad": [
+    "Habilidades numéricas",
+    "Habilidades verbales",
+    "Matemáticas",
+    "Física",
+    "Química",
+    "Biología",
+    "Geografía",
+    "Lengua y Literatura",
+    "Historia mundial",
+    "Historia de México"
+  ]
+};
+
+
+function renderizarMatematicas(elemento = document.body) {
+  if (window.MathJax && typeof window.MathJax.typesetPromise === "function") {
+    window.MathJax.typesetPromise([elemento]).catch(error => {
+      console.error("Error al renderizar matemáticas:", error);
+    });
+  }
+}
+
 function mostrarSeccion(id) {
-  document.querySelectorAll(".seccion, .examen-pantalla").forEach(s => {
-    s.classList.add("oculto");
+  document.querySelectorAll(".seccion, .examen-pantalla").forEach(seccion => {
+    seccion.classList.add("oculto");
   });
+
   document.getElementById(id).classList.remove("oculto");
+}
+
+function normalizarNombre(texto) {
+  return texto
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ñ/g, "n")
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+function obtenerRutaSimulador(categoria, numeroSimulador) {
+  const base = rutasBase[categoria];
+
+  if (!base) return null;
+
+  return base + "simulador_" + numeroSimulador + ".json";
+}
+
+function obtenerRutaSimuladorMateria(categoria, materia, numeroSimulador) {
+  const categoriaNormalizada = normalizarNombre(categoria);
+  const materiaNormalizada = normalizarNombre(materia);
+
+  return (
+    "preguntas_materia/" +
+    categoriaNormalizada +
+    "/" +
+    materiaNormalizada +
+    "/simulador_" +
+    numeroSimulador +
+    ".json"
+  );
 }
 
 function mostrarSimuladores(nombreCategoria, origen) {
   const titulo = document.getElementById("tituloSimulador");
   const contenedor = document.getElementById("contenedorSimuladores");
 
-  titulo.textContent = "Simuladores - " + nombreCategoria;
-  contenedor.innerHTML = "";
+  categoriaActual = nombreCategoria;
   ultimaCategoria = origen;
 
+  titulo.textContent = "Simuladores - " + nombreCategoria;
+  contenedor.innerHTML = "";
+
+  const botonMateria = document.createElement("button");
+  botonMateria.className = "boton-materia-especial";
+  botonMateria.textContent = "Simulador por materia";
+  botonMateria.onclick = function () {
+    mostrarMateriasSimulador(nombreCategoria);
+  };
+
+  contenedor.appendChild(botonMateria);
+
   for (let i = 1; i <= 10; i++) {
-    const b = document.createElement("button");
-    b.className = "boton-simulador";
-    b.textContent = "Simulador " + i;
+    const boton = document.createElement("button");
+    boton.className = "boton-simulador";
+    boton.textContent = "Simulador " + i;
 
-    if (i === 1 && (nombreCategoria === "UNAM" || nombreCategoria === "ECOEMS")) {
-      b.onclick = () => abrirConfiguracionExamen(nombreCategoria, i);
-    } else {
-      b.disabled = true;
-    }
+    boton.onclick = function () {
+      abrirConfiguracionExamen(nombreCategoria, i, false);
+    };
 
-    contenedor.appendChild(b);
+    contenedor.appendChild(boton);
   }
 
   mostrarSeccion("simuladores");
+}
+
+function mostrarMateriasSimulador(categoria) {
+  const titulo = document.getElementById("tituloMateriasSimulador");
+  const contenedor = document.getElementById("contenedorMaterias");
+
+  titulo.textContent = "Simulador por materia - " + categoria;
+  contenedor.innerHTML = "";
+
+  const materias = materiasPorCategoria[categoria] || [];
+
+  materias.forEach(materia => {
+    const boton = document.createElement("button");
+    boton.className = "boton-lista boton-materia";
+    boton.textContent = materia;
+
+    boton.onclick = function () {
+      mostrarSimuladoresDeMateria(categoria, materia);
+    };
+
+    contenedor.appendChild(boton);
+  });
+
+  mostrarSeccion("materiasSimulador");
+}
+
+function mostrarSimuladoresDeMateria(categoria, materia) {
+  const titulo = document.getElementById("tituloSimuladoresMateria");
+  const contenedor = document.getElementById("contenedorSimuladoresMateria");
+
+  categoriaActual = categoria;
+  materiaActualSeleccionada = materia;
+
+  titulo.textContent = categoria + " - " + materia;
+  contenedor.innerHTML = "";
+
+  for (let i = 1; i <= 3; i++) {
+    const boton = document.createElement("button");
+    boton.className = "boton-simulador-materia";
+    boton.textContent = "Simulador " + i;
+
+    boton.onclick = function () {
+      abrirConfiguracionExamen(categoria, i, true, materia);
+    };
+
+    contenedor.appendChild(boton);
+  }
+
+  mostrarSeccion("simuladoresMateria");
 }
 
 function regresarCategoria() {
   mostrarSeccion(ultimaCategoria);
 }
 
-async function abrirConfiguracionExamen(categoria, numeroSimulador) {
-  const clave = categoria + "_" + numeroSimulador;
-  const ruta = rutasSimuladores[clave];
+async function abrirConfiguracionExamen(categoria, numeroSimulador, esPorMateria = false, materia = "") {
+  const ruta = esPorMateria
+    ? obtenerRutaSimuladorMateria(categoria, materia, numeroSimulador)
+    : obtenerRutaSimulador(categoria, numeroSimulador);
 
   if (!ruta) {
-    alert("Este simulador todavía no tiene JSON asignado.");
+    alert("Esta categoría todavía no tiene ruta configurada.");
     return;
   }
 
@@ -64,7 +285,12 @@ async function abrirConfiguracionExamen(categoria, numeroSimulador) {
     });
 
     if (!respuesta.ok) {
-      throw new Error("No se encontró el JSON: " + ruta);
+      alert(
+        "Este simulador todavía no tiene JSON cargado.\n\n" +
+        "Archivo esperado:\n" +
+        ruta
+      );
+      return;
     }
 
     examenActual = await respuesta.json();
@@ -77,7 +303,7 @@ async function abrirConfiguracionExamen(categoria, numeroSimulador) {
     console.log("Primera pregunta:", preguntas[0]);
 
     if (!preguntas.length) {
-      alert("El JSON cargó, pero no contiene preguntas.");
+      alert("El JSON existe, pero no contiene preguntas.");
       return;
     }
 
@@ -95,11 +321,20 @@ async function abrirConfiguracionExamen(categoria, numeroSimulador) {
     document.getElementById("activarContador").disabled =
       examenActual.configuracion?.contador_permitido === false;
 
-    mostrarSeccion("configuracionExamen");
+    const activarRespuestasOcultas = document.getElementById("activarRespuestasOcultas");
+    if (activarRespuestasOcultas) {
+      activarRespuestasOcultas.checked =
+        examenActual.configuracion?.respuestas_ocultas_por_defecto !== false;
+    }
 
-  } catch (e) {
-    alert("No se pudo cargar el archivo JSON. Revisa la ruta o el formato.");
-    console.error(e);
+    mostrarSeccion("configuracionExamen");
+  } catch (error) {
+    alert(
+      "No se pudo cargar este simulador.\n\n" +
+      "Revisa que el JSON esté bien escrito y colocado aquí:\n" +
+      ruta
+    );
+    console.error(error);
   }
 }
 
@@ -108,11 +343,15 @@ function iniciarExamenDesdeConfig() {
   respuestasUsuario = {};
   respuestaVisible = null;
   contadorActivado = document.getElementById("activarContador").checked;
+  respuestasOcultasActivadas =
+    document.getElementById("activarRespuestasOcultas")?.checked ?? true;
 
   document.getElementById("franjaInstitucion").textContent =
     examenActual?.institucion || "SIM";
 
-  if (contadorIntervalo) clearInterval(contadorIntervalo);
+  if (contadorIntervalo) {
+    clearInterval(contadorIntervalo);
+  }
 
   if (contadorActivado) {
     const duracion = examenActual.configuracion?.duracion_minutos || 180;
@@ -139,18 +378,18 @@ function iniciarExamenDesdeConfig() {
 }
 
 function actualizarVistaContador() {
-  const m = Math.floor(tiempoRestanteSegundos / 60);
-  const s = tiempoRestanteSegundos % 60;
+  const minutos = Math.floor(tiempoRestanteSegundos / 60);
+  const segundos = tiempoRestanteSegundos % 60;
 
   document.getElementById("contador").textContent =
-    String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+    String(minutos).padStart(2, "0") + ":" + String(segundos).padStart(2, "0");
 }
 
 function cargarPregunta() {
-  const p = preguntas[preguntaActual];
+  const pregunta = preguntas[preguntaActual];
 
   document.getElementById("materiaActual").textContent =
-    p.materia || "Sin materia";
+    pregunta.materia || "Sin materia";
 
   document.getElementById("progresoPregunta").textContent =
     "Pregunta " + (preguntaActual + 1) + " de " + preguntas.length;
@@ -163,106 +402,133 @@ function cargarPregunta() {
 function mostrarPregunta() {
   respuestaVisible = null;
 
-  const p = preguntas[preguntaActual];
-  const c = document.getElementById("contenidoVisible");
+  const pregunta = preguntas[preguntaActual];
+  const contenedor = document.getElementById("contenidoVisible");
 
-  c.innerHTML = "";
+  contenedor.innerHTML = "";
 
-  const n = p.id || preguntaActual + 1;
-  const txt = p.pregunta?.contenido || "";
+  const numeroPregunta = pregunta.id || preguntaActual + 1;
+  const texto = pregunta.pregunta?.contenido || "";
 
-  const par = document.createElement("p");
-  par.textContent = txt ? n + ") " + txt : n + ") Pregunta sin contenido.";
-  c.appendChild(par);
+  const parrafo = document.createElement("p");
+  parrafo.textContent = texto
+    ? numeroPregunta + ") " + texto
+    : numeroPregunta + ") Pregunta sin contenido.";
 
-  if (p.pregunta?.imagen) {
-    const img = document.createElement("img");
-    img.src = p.pregunta.imagen;
-    img.alt = "Imagen de la pregunta " + n;
-    c.appendChild(img);
+  contenedor.appendChild(parrafo);
+
+  if (pregunta.pregunta?.imagen) {
+    const imagen = document.createElement("img");
+    imagen.src = pregunta.pregunta.imagen;
+    imagen.alt = "Imagen de la pregunta " + numeroPregunta;
+    contenedor.appendChild(imagen);
   }
 
+  renderizarMatematicas(contenedor);
   renderOpciones();
 }
 
 function ocultarPreguntaConBoton() {
-  const c = document.getElementById("contenidoVisible");
-  c.innerHTML = "";
+  const contenedor = document.getElementById("contenidoVisible");
+  contenedor.innerHTML = "";
 
-  const b = document.createElement("button");
-  b.className = "boton-ver-pregunta";
-  b.textContent = "Ver pregunta";
-  b.onclick = mostrarPregunta;
+  const boton = document.createElement("button");
+  boton.className = "boton-ver-pregunta";
+  boton.textContent = "Ver pregunta";
+  boton.onclick = mostrarPregunta;
 
-  c.appendChild(b);
+  contenedor.appendChild(boton);
 }
 
 function renderOpciones() {
-  const p = preguntas[preguntaActual];
-  const c = document.getElementById("zonaOpciones");
+  const pregunta = preguntas[preguntaActual];
+  const contenedor = document.getElementById("zonaOpciones");
 
-  c.innerHTML = "";
+  contenedor.innerHTML = "";
 
-  const opciones = p.opciones || [];
+  const opciones = pregunta.opciones || [];
 
-  opciones.forEach(op => {
+  opciones.forEach(opcion => {
     const fila = document.createElement("div");
-    fila.className = "fila-opcion";
+    fila.className = respuestasOcultasActivadas
+      ? "fila-opcion"
+      : "fila-opcion fila-opcion-visible";
 
-    const sel = document.createElement("button");
-    sel.className = "selector-opcion";
-    sel.title = "Elegir " + op.inciso;
+    const selector = document.createElement("button");
+    selector.className = "selector-opcion";
+    selector.title = "Elegir " + opcion.inciso;
 
-    if (respuestasUsuario[p.id] === op.inciso) {
-      sel.classList.add("seleccionada");
+    if (respuestasUsuario[pregunta.id] === opcion.inciso) {
+      selector.classList.add("seleccionada");
     }
 
-    sel.onclick = () => seleccionarRespuesta(op.inciso);
+    selector.onclick = function () {
+      seleccionarRespuesta(opcion.inciso);
+    };
 
-    const inc = document.createElement("div");
-    inc.className = "inciso-opcion";
-    inc.textContent = op.inciso + ")";
+    const inciso = document.createElement("div");
+    inciso.className = "inciso-opcion";
+    inciso.textContent = opcion.inciso + ")";
 
-    const ver = document.createElement("button");
-    ver.className = "boton-ver-respuesta";
-    ver.textContent = "Ver respuesta";
-    ver.onclick = () => mostrarRespuestaEnFila(op.inciso);
+    fila.append(selector, inciso);
 
-    fila.append(sel, inc, ver);
+    if (respuestasOcultasActivadas) {
+      const botonVer = document.createElement("button");
+      botonVer.className = "boton-ver-respuesta";
+      botonVer.textContent = "Ver respuesta";
+      botonVer.onclick = function () {
+        mostrarRespuestaEnFila(opcion.inciso);
+      };
 
-    if (respuestaVisible === op.inciso) {
-      const rd = document.createElement("div");
-      rd.className = "respuesta-desplegada";
+      fila.appendChild(botonVer);
 
-      const par = document.createElement("p");
-      par.textContent = op.texto || "Opción sin contenido.";
-      rd.appendChild(par);
-
-      if (op.imagen) {
-        const img = document.createElement("img");
-        img.src = op.imagen;
-        img.alt = "Imagen opción " + op.inciso;
-        rd.appendChild(img);
+      if (respuestaVisible === opcion.inciso) {
+        const respuestaDiv = crearContenidoRespuesta(opcion);
+        fila.appendChild(respuestaDiv);
+      } else {
+        fila.appendChild(document.createElement("div"));
       }
-
-      fila.appendChild(rd);
     } else {
-      fila.appendChild(document.createElement("div"));
+      const respuestaDiv = crearContenidoRespuesta(opcion);
+      respuestaDiv.classList.add("respuesta-visible-directa");
+      fila.appendChild(respuestaDiv);
     }
 
-    c.appendChild(fila);
+    contenedor.appendChild(fila);
   });
+
+  renderizarMatematicas(contenedor);
+}
+
+function crearContenidoRespuesta(opcion) {
+  const respuestaDiv = document.createElement("div");
+  respuestaDiv.className = "respuesta-desplegada";
+
+  const texto = document.createElement("p");
+  texto.textContent = opcion.texto || "Opción sin contenido.";
+  respuestaDiv.appendChild(texto);
+
+  if (opcion.imagen) {
+    const imagen = document.createElement("img");
+    imagen.src = opcion.imagen;
+    imagen.alt = "Imagen opción " + opcion.inciso;
+    respuestaDiv.appendChild(imagen);
+  }
+
+  return respuestaDiv;
 }
 
 function mostrarRespuestaEnFila(inciso) {
+  if (!respuestasOcultasActivadas) return;
+
   respuestaVisible = inciso;
   ocultarPreguntaConBoton();
   renderOpciones();
 }
 
 function seleccionarRespuesta(inciso) {
-  const p = preguntas[preguntaActual];
-  respuestasUsuario[p.id] = inciso;
+  const pregunta = preguntas[preguntaActual];
+  respuestasUsuario[pregunta.id] = inciso;
   renderOpciones();
 }
 
@@ -281,24 +547,29 @@ function preguntaSiguiente() {
 }
 
 function finalizarExamen(finalizadoPorTiempo) {
-  if (contadorIntervalo) clearInterval(contadorIntervalo);
+  if (contadorIntervalo) {
+    clearInterval(contadorIntervalo);
+  }
 
   const total = preguntas.length;
   let correctas = 0;
   const porMateria = {};
 
-  preguntas.forEach(p => {
-    const m = p.materia || "Sin materia";
+  preguntas.forEach(pregunta => {
+    const materia = pregunta.materia || "Sin materia";
 
-    if (!porMateria[m]) {
-      porMateria[m] = { total: 0, correctas: 0 };
+    if (!porMateria[materia]) {
+      porMateria[materia] = {
+        total: 0,
+        correctas: 0
+      };
     }
 
-    porMateria[m].total++;
+    porMateria[materia].total++;
 
-    if (respuestasUsuario[p.id] === p.respuesta_correcta) {
+    if (respuestasUsuario[pregunta.id] === pregunta.respuesta_correcta) {
       correctas++;
-      porMateria[m].correctas++;
+      porMateria[materia].correctas++;
     }
   });
 
@@ -310,41 +581,47 @@ function finalizarExamen(finalizadoPorTiempo) {
     </div>
   `;
 
-  const cm = document.getElementById("resultadosPorMateria");
-  cm.innerHTML = "";
+  const contenedorMaterias = document.getElementById("resultadosPorMateria");
+  contenedorMaterias.innerHTML = "";
 
-  Object.keys(porMateria).forEach(m => {
-    const d = porMateria[m];
+  Object.keys(porMateria).forEach(materia => {
+    const datos = porMateria[materia];
     const div = document.createElement("div");
+
     div.className = "resultado-card";
-    div.innerHTML = `<strong>${m}</strong><p>${d.correctas} / ${d.total}</p>`;
-    cm.appendChild(div);
+    div.innerHTML = `
+      <strong>${materia}</strong>
+      <p>${datos.correctas} / ${datos.total}</p>
+    `;
+
+    contenedorMaterias.appendChild(div);
   });
 
+  renderizarMatematicas(document.getElementById("resultados"));
   mostrarSeccion("resultados");
 }
 
 function mostrarRevision() {
-  const c = document.getElementById("contenedorRevision");
-  c.innerHTML = "";
+  const contenedor = document.getElementById("contenedorRevision");
+  contenedor.innerHTML = "";
 
-  preguntas.forEach((p, i) => {
-    const u = respuestasUsuario[p.id] || "Sin responder";
-    const cor = p.respuesta_correcta || "Sin respuesta configurada";
-    const ok = u === p.respuesta_correcta;
+  preguntas.forEach((pregunta, indice) => {
+    const usuario = respuestasUsuario[pregunta.id] || "Sin responder";
+    const correcta = pregunta.respuesta_correcta || "Sin respuesta configurada";
+    const esCorrecta = usuario === pregunta.respuesta_correcta;
 
     const div = document.createElement("div");
-    div.className = "revision-card " + (ok ? "correcta" : "incorrecta");
+    div.className = "revision-card " + (esCorrecta ? "correcta" : "incorrecta");
 
     div.innerHTML = `
-      <h3>Pregunta ${i + 1} - ${p.materia || "Sin materia"}</h3>
-      <p><strong>Pregunta:</strong> ${p.pregunta?.contenido || "Sin contenido"}</p>
-      <p><strong>Tu respuesta:</strong> ${u}</p>
-      <p><strong>Respuesta correcta:</strong> ${cor}</p>
-      <p><strong>Observaciones:</strong> ${p.observaciones || "Sin observaciones."}</p>
+      <h3>Pregunta ${indice + 1} - ${pregunta.materia || "Sin materia"}</h3>
+      <p><strong>Pregunta:</strong> ${pregunta.pregunta?.contenido || "Sin contenido"}</p>
+      <p><strong>Tu respuesta:</strong> ${usuario}</p>
+      <p><strong>Respuesta correcta:</strong> ${correcta}</p>
+      <p><strong>Observaciones:</strong> ${pregunta.observaciones || "Sin observaciones."}</p>
     `;
 
-    c.appendChild(div);
+    contenedor.appendChild(div);
   });
 
   mostrarSeccion("revision");
