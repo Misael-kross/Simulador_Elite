@@ -17,28 +17,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Durante 15 segundos un motociclista se desplaza a 20 m/s, después, durante 20 segundos se mueve a 15 m/s, posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a 10 m/s. Con base en estos datos, la rapidez media es de",
+        "contenido": "Durante 15 segundos un motociclista se desplaza a \\(20\\ m/s\\), después, durante 20 segundos se mueve a \\(15\\ m/s\\), posteriormente se detiene durante 25 segundos y, finalmente, durante 18 segundos se traslada a \\(10\\ m/s\\). Con base en estos datos, la rapidez media es de",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "25 m/s",
+          "texto": "\\(25\\ m/s\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "15 m/s",
+          "texto": "\\(15\\ m/s\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "20 m/s",
+          "texto": "\\(20\\ m/s\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "10 m/s",
+          "texto": "\\(10\\ m/s\\)",
           "imagen": null
         }
       ],
@@ -57,22 +57,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "1.6 kg",
+          "texto": "\\(1.6\\ kg\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "2.5 kg",
+          "texto": "\\(2.5\\ kg\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "3.2 kg",
+          "texto": "\\(3.2\\ kg\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "4.0 kg",
+          "texto": "\\(4.0\\ kg\\)",
           "imagen": null
         }
       ],
@@ -85,7 +85,7 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "La Ley de Hooke sobre la relación entre desplazamiento x del resorte y la fuerza F, como se muestra en la figura, establece que x es",
+        "contenido": "La Ley de Hooke sobre la relación entre desplazamiento \\(x\\) del resorte y la fuerza \\(F\\), como se muestra en la figura, establece que \\(x\\) es",
         "imagen": "imagenes/unam/simulador_1/p003.png"
       },
       "opciones": [
@@ -119,28 +119,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "Un balín (x) de masa igual a 200 g rueda con velocidad (V) sobre un riel recto con fricción despreciable y en posición horizontal. Otro balín (y) de masa igual a 400 g rueda con velocidad (−V) sobre el mismo riel pero en sentido contrario (ver figura). Si se considera que hay conservación de energía e ímpetu, que los balines se comportan como partículas y que después de chocar el balín (y) queda inmóvil, ¿cuál será la velocidad del balín (x) después del choque totalmente elástico?",
+        "contenido": "Un balín \\(x\\) de masa igual a \\(200\\ g\\) rueda con velocidad \\(V\\) sobre un riel recto con fricción despreciable y en posición horizontal. Otro balín \\(y\\) de masa igual a \\(400\\ g\\) rueda con velocidad \\(-V\\) sobre el mismo riel pero en sentido contrario (ver figura). Si se considera que hay conservación de energía e ímpetu, que los balines se comportan como partículas y que después de chocar el balín \\(y\\) queda inmóvil, ¿cuál será la velocidad del balín \\(x\\) después del choque totalmente elástico?",
         "imagen": "imagenes/unam/simulador_1/p004.png"
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "0",
+          "texto": "\\(0\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "(−V)(0.5)",
+          "texto": "\\((-V)(0.5)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "(−V)",
+          "texto": "\\(-V\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "(−V)(0.25)",
+          "texto": "\\((-V)(0.25)\\)",
           "imagen": null
         }
       ],
@@ -153,28 +153,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Un termómetro de gas a volumen constante es usado para medir la temperatura de un objeto. Cuando el termómetro está en contacto con el punto triple del agua (273.17 K), la presión en el termómetro es 8 500 × 10^4 Pa. Cuando éste entra en contacto con otro objeto la presión es de 9 650 × 10^4 Pa. La temperatura del objeto es",
+        "contenido": "Un termómetro de gas a volumen constante es usado para medir la temperatura de un objeto. Cuando el termómetro está en contacto con el punto triple del agua (\\(273.17\\ K\\)), la presión en el termómetro es \\(8\\,500 \\times 10^{4}\\ Pa\\). Cuando éste entra en contacto con otro objeto la presión es de \\(9\\,650 \\times 10^{4}\\ Pa\\). La temperatura del objeto es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "683 K",
+          "texto": "\\(683\\ K\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "310 K",
+          "texto": "\\(310\\ K\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "410 K",
+          "texto": "\\(410\\ K\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "241 K",
+          "texto": "\\(241\\ K\\)",
           "imagen": null
         }
       ],
@@ -193,22 +193,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "−100 °C",
+          "texto": "\\(-100\\ ^{\\circ}C\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "0 °F",
+          "texto": "\\(0\\ ^{\\circ}F\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "0 K",
+          "texto": "\\(0\\ K\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "0 °C",
+          "texto": "\\(0\\ ^{\\circ}C\\)",
           "imagen": null
         }
       ],
@@ -221,28 +221,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Una onda formada en una cuerda tiene una longitud de onda de 10 cm y un periodo de 2 s, ¿con qué velocidad se propaga?",
+        "contenido": "Una onda formada en una cuerda tiene una longitud de onda de \\(10\\ cm\\) y un periodo de \\(2\\ s\\), ¿con qué velocidad se propaga?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "20.00 cm/s",
+          "texto": "\\(20.00\\ cm/s\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "0.25 cm/s",
+          "texto": "\\(0.25\\ cm/s\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "5.00 cm/s",
+          "texto": "\\(5.00\\ cm/s\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "2.00 cm/s",
+          "texto": "\\(2.00\\ cm/s\\)",
           "imagen": null
         }
       ],
@@ -289,28 +289,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Un circuito consta de una pila con voltaje conocido de V volts y 4 resistores conectados en serie que presentan la misma resistencia desconocida de R ohms. Si por el circuito circula una corriente conocida de i amperes, ¿qué expresión nos sirve para calcular el valor de R?",
+        "contenido": "Un circuito consta de una pila con voltaje conocido de \\(V\\) volts y \\(4\\) resistores conectados en serie que presentan la misma resistencia desconocida de \\(R\\) ohms. Si por el circuito circula una corriente conocida de \\(i\\) amperes, ¿qué expresión nos sirve para calcular el valor de \\(R\\)?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "R = 4V/i",
+          "texto": "\\(R = \\frac{4V}{i}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "R = 4VI",
+          "texto": "\\(R = 4VI\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "R = i/(4V)",
+          "texto": "\\(R = \\frac{i}{4V}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "R = V/(4i)",
+          "texto": "\\(R = \\frac{V}{4i}\\)",
           "imagen": null
         }
       ],
@@ -391,7 +391,7 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿En cuánto tiempo se llenará una alberca olímpica de 50 m × 25 m × 3 m, si se usa un tubo de 40 cm de diámetro por el que fluye agua a una velocidad de 4 m/s?",
+        "contenido": "¿En cuánto tiempo se llenará una alberca olímpica de \\(50\\ m \\times 25\\ m \\times 3\\ m\\), si se usa un tubo de \\(40\\ cm\\) de diámetro por el que fluye agua a una velocidad de \\(4\\ m/s\\)?",
         "imagen": null
       },
       "opciones": [
@@ -799,7 +799,7 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuántos gramos equivalen a 0.5 mol de ácido fosfórico, H3PO4?",
+        "contenido": "¿Cuántos gramos equivalen a \\(0.5\\ mol\\) de ácido fosfórico, \\(H_{3}PO_{4}\\)?",
         "imagen": null
       },
       "opciones": [
@@ -867,28 +867,28 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En cierto laboratorio, se determinó que la disolución Z tiene un valor de pH = 3, por lo cual podemos decir que presenta una concentración de iones H+ ______ y una concentración de iones OH− = ______.",
+        "contenido": "En cierto laboratorio, se determinó que la disolución \\(Z\\) tiene un valor de \\(pH = 3\\), por lo cual podemos decir que presenta una concentración de iones \\(H^{+}\\) ______ y una concentración de iones \\(OH^{-}\\) = ______.",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "1 y 3",
+          "texto": "\\(1\\) y \\(3\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "3 y 11",
+          "texto": "\\(3\\) y \\(11\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "10^−11 y 10^−3",
+          "texto": "\\(10^{-11}\\) y \\(10^{-3}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "10^−3 y 10^−11",
+          "texto": "\\(10^{-3}\\) y \\(10^{-11}\\)",
           "imagen": null
         }
       ],
@@ -975,22 +975,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "C + 2H2 → CH4",
+          "texto": "\\(C + 2H_{2} \\rightarrow CH_{4}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "SO3 + H2O → H2SO4",
+          "texto": "\\(SO_{3} + H_{2}O \\rightarrow H_{2}SO_{4}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "CO2 → C + O2",
+          "texto": "\\(CO_{2} \\rightarrow C + O_{2}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "N2 + 3H2 → 2NH3",
+          "texto": "\\(N_{2} + 3H_{2} \\rightarrow 2NH_{3}\\)",
           "imagen": null
         }
       ],
@@ -1179,22 +1179,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "CH3–C(=O)–OH",
+          "texto": "\\(CH_{3}–C(=O)–OH\\)",
           "imagen": "imagenes/unam/simulador_1/p035_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "CH3–C(=O)–NH2",
+          "texto": "\\(CH_{3}–C(=O)–NH_{2}\\)",
           "imagen": "imagenes/unam/simulador_1/p035_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "CH3–CH2–CH3",
+          "texto": "\\(CH_{3}–CH_{2}–CH_{3}\\)",
           "imagen": "imagenes/unam/simulador_1/p035_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "CH3–C(=O)–OCH2CH3",
+          "texto": "\\(CH_{3}–C(=O)–OCH_{2}CH_{3}\\)",
           "imagen": "imagenes/unam/simulador_1/p035_opcion_d.png"
         }
       ],
@@ -1547,28 +1547,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Simplifica la expresión ((a^2 + b)^3/2)/(a^2 + b)",
+        "contenido": "Simplifica la expresión \\(\\frac{(a^{2} + b)^{\\frac{3}{2}}}{a^{2} + b}\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "√(a^2 + b)^5",
+          "texto": "\\(\\sqrt{(a^{2} + b)^{5}}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "(a^2 + b)^−3/2",
+          "texto": "\\((a^{2} + b)^{-\\frac{3}{2}}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "√(a^2 + b)",
+          "texto": "\\(\\sqrt{a^{2} + b}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "(a^2 + b)^3",
+          "texto": "\\((a^{2} + b)^{3}\\)",
           "imagen": null
         }
       ],
@@ -1581,28 +1581,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Factoriza la siguiente expresión. n^6 − 3n^3 − 18",
+        "contenido": "Factoriza la siguiente expresión. \\(n^{6} - 3n^{3} - 18\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "(n^3 + 3)(n^3 − 6)",
+          "texto": "\\((n^{3} + 3)(n^{3} - 6)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "(n^3 − 3)(n^3 + 6)",
+          "texto": "\\((n^{3} - 3)(n^{3} + 6)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "(n^3 − 3)(n^3 − 6)",
+          "texto": "\\((n^{3} - 3)(n^{3} - 6)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "(n^3 + 3)(n^3 + 6)",
+          "texto": "\\((n^{3} + 3)(n^{3} + 6)\\)",
           "imagen": null
         }
       ],
@@ -1621,22 +1621,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "sen(x) = 1/2",
+          "texto": "\\(\\operatorname{sen}(x) = \\frac{1}{2}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "sen(x)csc(x) = 1",
+          "texto": "\\(\\operatorname{sen}(x)\\operatorname{csc}(x) = 1\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "sen^2(x) + cos^2(x) = 1",
+          "texto": "\\(\\operatorname{sen}^{2}(x) + \\cos^{2}(x) = 1\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "sec^2(x) − tan^2(x) = 1",
+          "texto": "\\(\\sec^{2}(x) - \\tan^{2}(x) = 1\\)",
           "imagen": null
         }
       ],
@@ -1649,28 +1649,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Los valores 0 y −2 son las raíces o soluciones de la ecuación",
+        "contenido": "Los valores \\(0\\) y \\(-2\\) son las raíces o soluciones de la ecuación",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "x(x − 2) = 0",
+          "texto": "\\(x(x - 2) = 0\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "(x + 2)(x − 2) = 0",
+          "texto": "\\((x + 2)(x - 2) = 0\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "x(x + 2) = 0",
+          "texto": "\\(x(x + 2) = 0\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "x^2 − 4 = 0",
+          "texto": "\\(x^{2} - 4 = 0\\)",
           "imagen": null
         }
       ],
@@ -1683,28 +1683,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Selecciona la desigualdad que tiene por solución al siguiente conjunto. [1/3, ∞)",
+        "contenido": "Selecciona la desigualdad que tiene por solución al siguiente conjunto. \\([\\frac{1}{3}, \\infty)\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "3x − 1 ≥ 0",
+          "texto": "\\(3x - 1 \\geq 0\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "3x − 1 ≤ 0",
+          "texto": "\\(3x - 1 \\leq 0\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "−3x + 1 ≥ 0",
+          "texto": "\\(-3x + 1 \\geq 0\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "−3x + 1 ≤ 0",
+          "texto": "\\(-3x + 1 \\leq 0\\)",
           "imagen": null
         }
       ],
@@ -1717,28 +1717,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de x. 5x = 4y + 19; 7x + 3y = 18",
+        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de \\(x\\). \\[\\begin{cases} 5x = 4y + 19 \\\\ 7x + 3y = 18 \\end{cases}\\]",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "x = −3",
+          "texto": "\\(x = -3\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "x = −1",
+          "texto": "\\(x = -1\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "x = 1",
+          "texto": "\\(x = 1\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "x = 3",
+          "texto": "\\(x = 3\\)",
           "imagen": null
         }
       ],
@@ -1757,22 +1757,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "f(x) = −√(−8x − 16)",
+          "texto": "\\(f(x) = -\\sqrt{-8x - 16}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "f(x) = √(−8x − 16)",
+          "texto": "\\(f(x) = \\sqrt{-8x - 16}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "f(x) = −√(−8x + 16)",
+          "texto": "\\(f(x) = -\\sqrt{-8x + 16}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "f(x) = √(−8x + 16)",
+          "texto": "\\(f(x) = \\sqrt{-8x + 16}\\)",
           "imagen": null
         }
       ],
@@ -1785,28 +1785,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En términos de senθ y cosθ, tanθ es igual a",
+        "contenido": "En términos de \\(\\operatorname{sen}\\theta\\) y \\(\\cos\\theta\\), \\(\\tan\\theta\\) es igual a",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "senθ/cosθ",
+          "texto": "\\(\\frac{\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "cosθ/senθ",
+          "texto": "\\(\\frac{\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "2senθ/cosθ",
+          "texto": "\\(\\frac{2\\operatorname{sen}\\theta}{\\cos\\theta}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "2cosθ/senθ",
+          "texto": "\\(\\frac{2\\cos\\theta}{\\operatorname{sen}\\theta}\\)",
           "imagen": null
         }
       ],
@@ -1853,28 +1853,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Calcula el rango de la siguiente función y = e^(5x − 1) + 5.",
+        "contenido": "Calcula el rango de la siguiente función \\(y = e^{5x - 1} + 5\\).",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "(1/5, ∞)",
+          "texto": "\\((\\frac{1}{5}, \\infty)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "(5, ∞)",
+          "texto": "\\((5, \\infty)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "(−5, ∞)",
+          "texto": "\\((-5, \\infty)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "[−1/5, ∞)",
+          "texto": "\\([-\\frac{1}{5}, \\infty)\\)",
           "imagen": null
         }
       ],
@@ -1887,28 +1887,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál es la distancia entre los puntos P(2, 5) y Q(4, −1)?",
+        "contenido": "¿Cuál es la distancia entre los puntos \\(P(2, 5)\\) y \\(Q(4, -1)\\)?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "4√5",
+          "texto": "\\(4\\sqrt{5}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "2√5",
+          "texto": "\\(2\\sqrt{5}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "4√10",
+          "texto": "\\(4\\sqrt{10}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "2√10",
+          "texto": "\\(2\\sqrt{10}\\)",
           "imagen": null
         }
       ],
@@ -1921,28 +1921,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Determina el centro de la circunferencia cuyo diámetro es el segmento A(−3, 2), B(7, 8).",
+        "contenido": "Determina el centro de la circunferencia cuyo diámetro es el segmento \\(A(-3, 2)\\), \\(B(7, 8)\\).",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "P(2, 5)",
+          "texto": "\\(P(2, 5)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "P(5, 5)",
+          "texto": "\\(P(5, 5)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "P(5, 3)",
+          "texto": "\\(P(5, 3)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "P(−2, 3)",
+          "texto": "\\(P(-2, 3)\\)",
           "imagen": null
         }
       ],
@@ -1961,22 +1961,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "y = −3x + 6",
+          "texto": "\\(y = -3x + 6\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "y = −3x + 7",
+          "texto": "\\(y = -3x + 7\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "y = −2x + 5",
+          "texto": "\\(y = -2x + 5\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "y = −2x + 6",
+          "texto": "\\(y = -2x + 6\\)",
           "imagen": null
         }
       ],
@@ -1989,28 +1989,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es 3x^2 + 3y^2 + 12x + 30y + 6 = 0",
+        "contenido": "Indica las coordenadas del centro de la circunferencia cuya ecuación general es \\(3x^{2} + 3y^{2} + 12x + 30y + 6 = 0\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "C(−4, −10)",
+          "texto": "\\(C(-4, -10)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "C(−2, −5)",
+          "texto": "\\(C(-2, -5)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "C(4, 10)",
+          "texto": "\\(C(4, 10)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "C(2, 5)",
+          "texto": "\\(C(2, 5)\\)",
           "imagen": null
         }
       ],
@@ -2023,28 +2023,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Selecciona la ecuación de la parábola con foco F(1, 0), valor del parámetro P = 1 y eje focal paralelo al eje Y.",
+        "contenido": "Selecciona la ecuación de la parábola con foco \\(F(1, 0)\\), valor del parámetro \\(P = 1\\) y eje focal paralelo al eje \\(Y\\).",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "x^2 + 4y = 0",
+          "texto": "\\(x^{2} + 4y = 0\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "y^2 − 4x = 0",
+          "texto": "\\(y^{2} - 4x = 0\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "x^2 − 4y = 0",
+          "texto": "\\(x^{2} - 4y = 0\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "y^2 + 4x = 0",
+          "texto": "\\(y^{2} + 4x = 0\\)",
           "imagen": null
         }
       ],
@@ -2057,28 +2057,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál es la ecuación general de la siguiente elipse x^2/16 + y^2/4 = 1?",
+        "contenido": "¿Cuál es la ecuación general de la siguiente elipse \\(\\frac{x^{2}}{16} + \\frac{y^{2}}{4} = 1\\)?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "4x^2 + y^2 − 16 = 0",
+          "texto": "\\(4x^{2} + y^{2} - 16 = 0\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "x^2 + 4y^2 + 16 = 0",
+          "texto": "\\(x^{2} + 4y^{2} + 16 = 0\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "x^2 + 4y^2 − 16 = 0",
+          "texto": "\\(x^{2} + 4y^{2} - 16 = 0\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "4x^2 + 4y^2 + 16 = 0",
+          "texto": "\\(4x^{2} + 4y^{2} + 16 = 0\\)",
           "imagen": null
         }
       ],
@@ -2091,28 +2091,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Para la ecuación de la siguiente hipérbola, si c = 41, ¿cuánto vale a? x^2/a^2 − y^2/9^2 = 1",
+        "contenido": "Para la ecuación de la siguiente hipérbola, si \\(c = 41\\), ¿cuánto vale \\(a\\)? \\(\\frac{x^{2}}{a^{2}} - \\frac{y^{2}}{9^{2}} = 1\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "a = 1024",
+          "texto": "\\(a = 1024\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "a = 1600",
+          "texto": "\\(a = 1600\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "a = 32",
+          "texto": "\\(a = 32\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "a = 40",
+          "texto": "\\(a = 40\\)",
           "imagen": null
         }
       ],
@@ -2125,7 +2125,7 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Si en la ecuación Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0 el discriminante B^2 − 4AC es positivo, entonces la ecuación representa una",
+        "contenido": "Si en la ecuación \\(Ax^{2} + Bxy + Cy^{2} + Dx + Ey + F = 0\\) el discriminante \\(B^{2} - 4AC\\) es positivo, entonces la ecuación representa una",
         "imagen": null
       },
       "opciones": [
@@ -2159,28 +2159,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La condición que debe cumplir x cuando se aproxima a b para que en f(x) exista el límite L es que",
+        "contenido": "La condición que debe cumplir \\(x\\) cuando se aproxima a \\(b\\) para que en \\(f(x)\\) exista el límite \\(L\\) es que",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "x ≠ b",
+          "texto": "\\(x \\neq b\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "x = b",
+          "texto": "\\(x = b\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "x > b",
+          "texto": "\\(x > b\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "x ≥ b",
+          "texto": "\\(x \\geq b\\)",
           "imagen": null
         }
       ],
@@ -2193,28 +2193,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La derivada de y = (2x^3 + 5)^4 es",
+        "contenido": "La derivada de \\(y = (2x^{3} + 5)^{4}\\) es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "y′ = 12x^2(2x^3 + 5)^3",
+          "texto": "\\(y\\prime = 12x^{2}(2x^{3} + 5)^{3}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "y′ = 6x^2(2x^3 + 5)^3",
+          "texto": "\\(y\\prime = 6x^{2}(2x^{3} + 5)^{3}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "y′ = 8x^2(2x^3 + 5)^2",
+          "texto": "\\(y\\prime = 8x^{2}(2x^{3} + 5)^{2}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "y′ = 24x^2(2x^3 + 5)^3",
+          "texto": "\\(y\\prime = 24x^{2}(2x^{3} + 5)^{3}\\)",
           "imagen": null
         }
       ],
@@ -2227,28 +2227,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La posición de una partícula expresada en unidades (u) está dada por la función de tiempo (s) f(t) = t^3 − t + 1. Considerando t = 3, ¿cuál es su aceleración en u/s^2?",
+        "contenido": "La posición de una partícula expresada en unidades \\(u\\) está dada por la función de tiempo \\(s\\) \\(f(t) = t^{3} - t + 1\\). Considerando \\(t = 3\\), ¿cuál es su aceleración en \\(u/s^{2}\\)?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "24 u/s^2",
+          "texto": "\\(24\\ u/s^{2}\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "26 u/s^2",
+          "texto": "\\(26\\ u/s^{2}\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "17 u/s^2",
+          "texto": "\\(17\\ u/s^{2}\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "18 u/s^2",
+          "texto": "\\(18\\ u/s^{2}\\)",
           "imagen": null
         }
       ],
@@ -2261,28 +2261,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La expresión f(t) = cos(2t + 3) es una función de posición de movimiento armónico. La expresión para la aceleración es",
+        "contenido": "La expresión \\(f(t) = \\cos(2t + 3)\\) es una función de posición de movimiento armónico. La expresión para la aceleración es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "a(t) = −4cos(2t − 3)",
+          "texto": "\\(a(t) = -4\\cos(2t - 3)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "a(t) = cos(2t + 3)",
+          "texto": "\\(a(t) = \\cos(2t + 3)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "a(t) = −cos(2t + 3)",
+          "texto": "\\(a(t) = -\\cos(2t + 3)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "a(t) = −4cos(2t + 3)",
+          "texto": "\\(a(t) = -4\\cos(2t + 3)\\)",
           "imagen": null
         }
       ],
@@ -2329,28 +2329,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La integral ∫(2senx + 3cosx)dx es",
+        "contenido": "La integral \\(\\int(2\\operatorname{sen}x + 3\\cos x)\\,dx\\) es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "2sen x + cos x + C",
+          "texto": "\\(2\\operatorname{sen} x + \\cos x + C\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "2sen x − cos x + C",
+          "texto": "\\(2\\operatorname{sen} x - \\cos x + C\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "2cos x + 3sen x + C",
+          "texto": "\\(2\\cos x + 3\\operatorname{sen} x + C\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "−2cos x + 3sen x + C",
+          "texto": "\\(-2\\cos x + 3\\operatorname{sen} x + C\\)",
           "imagen": null
         }
       ],
@@ -3083,22 +3083,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "FADH2 y H2O",
+          "texto": "\\(FADH_{2}\\) y \\(H_{2}O\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "ATP y NADPH",
+          "texto": "\\(ATP\\) y \\(NADPH\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "FADH2 y ATP",
+          "texto": "\\(FADH_{2}\\) y \\(ATP\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "C6H12O6 y O2",
+          "texto": "\\(C_{6}H_{12}O_{6}\\) y \\(O_{2}\\)",
           "imagen": null
         }
       ],

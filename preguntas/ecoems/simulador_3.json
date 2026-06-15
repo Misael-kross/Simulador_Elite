@@ -969,28 +969,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Encuentra el resultado de la siguiente operación.\n\n\\(2 - 5\\left[8 - 3(7 - 2) + 1\\right] - 3(4 - 1)\\)",
+        "contenido": "Encuentra el resultado de la siguiente operación.\n\n( ) ( ) 2 58 37 2 1 34 1 ª º - - - + - -\n\n¬ ¼",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(29\\)",
+          "texto": "29",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(23\\)",
+          "texto": "23",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(-11\\)",
+          "texto": "–11",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(-73\\)",
+          "texto": "–73",
           "imagen": null
         }
       ],
@@ -1003,28 +1003,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "\\(120\\) es el \\(75\\%\\) de",
+        "contenido": "120 es el 75% de",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(200\\)",
+          "texto": "200",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(180\\)",
+          "texto": "180",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(160\\)",
+          "texto": "160",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(140\\)",
+          "texto": "140",
           "imagen": null
         }
       ],
@@ -1037,28 +1037,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "El resultado que se obtiene al simplificar \\(\\left(\\frac{2}{3}\\right)^{4}\\) es",
+        "contenido": "El resultado que se obtiene al simplificar 4 2 3 § · ¨ ¸ © ¹ es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(\\frac{16}{81}\\)",
+          "texto": "16 81",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(\\frac{8}{27}\\)",
+          "texto": "8 27",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(\\frac{16}{18}\\)",
+          "texto": "16 18",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(\\frac{8}{12}\\)",
+          "texto": "8 12",
           "imagen": null
         }
       ],
@@ -1071,28 +1071,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál de las siguientes expresiones representa el enunciado \"La semisuma de los cuadrados de \\(a\\) y \\(b\\)\"?",
+        "contenido": "¿Cuál de las siguientes expresiones representa el enunciado \"La semisuma de los cuadrados de ú y b\"?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(\\frac{1}{2}(a+b)^{2}\\)",
+          "texto": "( ) 2 1a b 2 +",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(\\left(\\frac{1}{2}(a+b)\\right)^{2}\\)",
+          "texto": "( ) 2 1a b 2 § · + ¨ ¸ © ¹",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(\\frac{1}{2}(a^{2}+b^{2})\\)",
+          "texto": "( ) 2 2 1a b 2 +",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(\\left(\\frac{1}{2}a+\\frac{1}{2}b\\right)^{2}\\)",
+          "texto": "2 1 1 a b 2 2 § · + ¨ ¸ © ¹",
           "imagen": null
         }
       ],
@@ -1105,28 +1105,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En un triángulo equilátero, uno de sus lados mide \\(3x - 9\\), ¿cuál de las siguientes expresiones representa el perímetro de dicho triángulo?",
+        "contenido": "En un triángulo equilátero, uno de sus lados mide 3x – 9, ¿cuál de las siguientes expresiones representa el perímetro de dicho triángulo?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(9x^{2} - 54x + 81\\)",
+          "texto": "9x2 – 54x+81",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(9x - 27\\)",
+          "texto": "9x – 27",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(9x - 9\\)",
+          "texto": "9x – 9",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(9x^{2} - 81\\)",
+          "texto": "9x2 – 81",
           "imagen": null
         }
       ],
@@ -1139,28 +1139,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Encuentra la factorización de \\(x^{2} - 3x - 18\\).",
+        "contenido": "Encuentra la factorización de x2 – 3x – 18.",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\((x - 6)(x + 3)\\)",
+          "texto": "(x – 6) (x + 3)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\((x - 9)(x + 2)\\)",
+          "texto": "(x – 9) (x + 2)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\((x + 9)(x - 2)\\)",
+          "texto": "(x + 9) (x – 2)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\((x + 6)(x - 3)\\)",
+          "texto": "(x + 6) (x – 3)",
           "imagen": null
         }
       ],
@@ -1173,28 +1173,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Una solución de la ecuación \\(x^{2} - 2x = 8\\) es",
+        "contenido": "Una solución de la ecuación x2 – 2x 8 es",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(4\\)",
+          "texto": "4",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(8\\)",
+          "texto": "8",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(6\\)",
+          "texto": "6",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(2\\)",
+          "texto": "2",
           "imagen": null
         }
       ],
@@ -1207,28 +1207,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "La siguiente tabla presenta los resultados de una prueba de matemáticas. Suponiendo que se evaluaron a \\(40\\) alumnos, ¿cuántos obtuvieron \\(8\\) de calificación?",
+        "contenido": "La siguiente tabla presenta los resultados de una prueba de matemáticas. Suponiendo que se evaluaron a 40 alumnos, ¿cuántos obtuvieron 8 de calificación?",
         "imagen": "imagenes/ecoems/simulador_1/p036.png"
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(18\\)",
+          "texto": "18",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(10\\)",
+          "texto": "10",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(16\\)",
+          "texto": "16",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(12\\)",
+          "texto": "12",
           "imagen": null
         }
       ],
@@ -1247,22 +1247,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(100\\%\\)",
+          "texto": "100%",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(25\\%\\)",
+          "texto": "25%",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(50\\%\\)",
+          "texto": "50%",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(10\\%\\)",
+          "texto": "10%",
           "imagen": null
         }
       ],
@@ -1275,28 +1275,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La altura de Miguel es de \\(1.60\\,m\\) y a cierta hora su sombra mide \\(3.5\\,m\\). ¿Cuál es la altura de un asta bandera, si a esa misma hora tiene una sombra de \\(9\\,m\\)?",
+        "contenido": "La altura de Miguel es de 1.60 m y a cierta hora su sombra mide 3.5 m. ¿Cuál es la altura de un asta bandera, si a esa misma hora tiene una sombra de 9 m?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(4.11\\,m\\)",
+          "texto": "4.11 m",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(6.22\\,m\\)",
+          "texto": "6.22 m",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(3.20\\,m\\)",
+          "texto": "3.20 m",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(7.10\\,m\\)",
+          "texto": "7.10 m",
           "imagen": null
         }
       ],
@@ -1349,22 +1349,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(12\\,m^{2}\\)",
+          "texto": "12 m2",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(18\\,m^{2}\\)",
+          "texto": "18 m2",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(24\\,m^{2}\\)",
+          "texto": "24 m2",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(36\\,m^{2}\\)",
+          "texto": "36 m2",
           "imagen": null
         }
       ],
@@ -1377,28 +1377,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál es el término que falta en la siguiente sucesión?\n\n\\(10, -2, -14, -26, \\underline{\\hspace{1cm}}, \\ldots\\)",
+        "contenido": "¿Cuál es el término que falta en la siguiente sucesión?\n\n10, –2, –14, –26, ____, ...",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(-38\\)",
+          "texto": "–38",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(14\\)",
+          "texto": "14",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(-50\\)",
+          "texto": "–50",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(-37\\)",
+          "texto": "–37",
           "imagen": null
         }
       ],
@@ -1411,28 +1411,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Indica los números que continúan en la sucesión\n\n\\(8, 7.1, 6.02, 5.003, 4.0004, \\underline{\\hspace{1cm}}, \\underline{\\hspace{1cm}}, \\ldots\\)",
+        "contenido": "Indica los números que continúan en la sucesión\n\n8, 7.1, 6.02, 5.003, 4.0004, ___, ___, ....",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(3.00005\\) y \\(2.000006\\)",
+          "texto": "x3.00005 y 2.000006",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(3.0005\\) y \\(2.00006\\)",
+          "texto": "x3.0005 y 2.00006",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(3.000005\\) y \\(2.0000006\\)",
+          "texto": "x3.000005 y 2.0000006",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(3.000005\\) y \\(2.00006\\)",
+          "texto": "x3.000005 y 2.00006",
           "imagen": null
         }
       ],
@@ -1445,28 +1445,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Encuentra los términos que faltan en la siguiente sucesión.\n\n\\(5, 12, 16, 8, 27, 4, \\underline{\\hspace{1cm}}, \\underline{\\hspace{1cm}}, \\ldots\\)",
+        "contenido": "Encuentra los términos que faltan en la siguiente sucesión.\n\n5, 12, 16, 8, 27, 4, __, __, ...",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(49\\) y \\(0\\)",
+          "texto": "49 y 0",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(38\\) y \\(49\\)",
+          "texto": "38 y 49",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(38\\) y \\(0\\)",
+          "texto": "38 y 0",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(49\\) y \\(38\\)",
+          "texto": "49 y 38",
           "imagen": null
         }
       ],
@@ -1479,28 +1479,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuáles son los términos que faltan en la siguiente sucesión?\n\n\\(92, 83, \\underline{\\hspace{1cm}}, 68, \\underline{\\hspace{1cm}}, 57\\)",
+        "contenido": "¿Cuáles son los términos que faltan en la siguiente sucesión?\n\n92, 83, __, 68, __, 57",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(77\\) y \\(66\\)",
+          "texto": "77 y 66",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(75\\) y \\(62\\)",
+          "texto": "75 y 62",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(74\\) y \\(59\\)",
+          "texto": "74 y 59",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(73\\) y \\(65\\)",
+          "texto": "73 y 65",
           "imagen": null
         }
       ],
@@ -1587,22 +1587,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(42\\)",
+          "texto": "42",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(72\\)",
+          "texto": "72",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(90\\)",
+          "texto": "90",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(56\\)",
+          "texto": "56",
           "imagen": null
         }
       ],
@@ -1723,22 +1723,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(17\\)",
+          "texto": "17",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(16\\)",
+          "texto": "16",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(15\\)",
+          "texto": "15",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(18\\)",
+          "texto": "18",
           "imagen": null
         }
       ],
@@ -1785,28 +1785,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Una bicicleta tiene un precio de \\(\\$4,600\\), se compra dando un enganche de \\(\\$1,800\\) y pagando el resto en \\(5\\) abonos mensuales ¿de cuánto deberá ser cada pago?",
+        "contenido": "Una bicicleta tiene un precio de $4,600, se compra dando un enganche de $1,800 y pagando el resto en 5 abonos mensuales ¿de cuánto deberá ser cada pago?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(\\$360\\)",
+          "texto": "$360",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(\\$560\\)",
+          "texto": "$560",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(\\$630\\)",
+          "texto": "$630",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(\\$920\\)",
+          "texto": "$920",
           "imagen": null
         }
       ],
@@ -1825,22 +1825,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(12\\)",
+          "texto": "12",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(14\\)",
+          "texto": "14",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(15\\)",
+          "texto": "15",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(16\\)",
+          "texto": "16",
           "imagen": null
         }
       ],
@@ -1853,28 +1853,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Se contrataron \\(15\\) albañiles para que coloquen \\(120\\,m^{2}\\) de un piso en tres jornadas de trabajo. ¿Cuántos albañiles más deberían contratarse para que el piso se termine en una jornada?",
+        "contenido": "Se contrataron 15 albañiles para que coloquen 120 m2 de un piso en tres jornadas de trabajo. ¿Cuántos albañiles más deberían contratarse para que el piso se termine en una jornada?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(20\\)",
+          "texto": "20",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(45\\)",
+          "texto": "45",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(15\\)",
+          "texto": "15",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(30\\)",
+          "texto": "30",
           "imagen": null
         }
       ],
@@ -1887,28 +1887,28 @@
       "materia": "Habilidad matemática",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "El \\(40\\%\\) de una población tiene coche, y \\(\\frac{2}{5}\\) de ésta lo utiliza diario. ¿Qué porcentaje de la población no lo usa diario?",
+        "contenido": "El 40% de una población tiene coche,\n\ny de ésta lo utiliza diario. ¿Qué\n\nporcentaje de la población no lo usa diario?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(24\\%\\)",
+          "texto": "24%",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(8\\%\\)",
+          "texto": "8%",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(16\\%\\)",
+          "texto": "16%",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(32\\%\\)",
+          "texto": "32%",
           "imagen": null
         }
       ],
@@ -2329,28 +2329,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "La gráfica representa la velocidad de un vehículo en \\(\\frac{km}{h}\\) al paso del tiempo. ¿En cuál de los intervalos de tiempo el vehículo se desplaza con mayor aceleración?",
+        "contenido": "La gráfica representa la velocidad de un vehículo en km/h al paso del tiempo. ¿En cuál de los intervalos de tiempo el vehículo se desplaza con mayor aceleración?",
         "imagen": "imagenes/ecoems/simulador_1/p069.png"
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(0 - 1\\,h\\)",
+          "texto": "0 – 1 h",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(1 - 2\\,h\\)",
+          "texto": "1 – 2 h",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(2 - 3\\,h\\)",
+          "texto": "2 – 3 h",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(4 - 5\\,h\\)",
+          "texto": "4 – 5 h",
           "imagen": null
         }
       ],
@@ -2369,22 +2369,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "El automóvil inició su recorrido en el reposo incrementando la velocidad hasta \\(60\\,\\frac{km}{h}\\) en una hora, mantuvo está velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.",
+          "texto": "El automóvil inició su recorrido en el reposo incrementando la velocidad hasta 60 km hen una hora, mantuvo está velocidad durante las siguientes tres horas, tiempo en el cual llegó al punto en que inició su recorrido.",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "El automóvil partió del reposo hasta alcanzar una velocidad de \\(60\\,\\frac{km}{h}\\) en una hora, después se detuvo durante las siguientes dos horas, en la siguiente hora reanudó su marcha hasta llegar al lugar de donde partió.",
+          "texto": "El automóvil partió del reposo hasta alcanzar una velocidad de 60 km hen una hora, después se detuvo durante las siguientes dos horas, en la siguiente hora reanudó su marcha hasta llegar al lugar de donde partió.",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "El automóvil partió del reposo, en la primer hora alcanzó una velocidad de \\(60\\,\\frac{km}{h}\\), y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las \\(4\\) horas de iniciado su recorrido se detuvo.",
+          "texto": "El automóvil partió del reposo, en la primer hora alcanzó una velocidad de 60 km h, y mantuvo esta durante las dos horas siguientes, después redujo la velocidad hasta que a las 4 horas de iniciado su recorrido se detuvo.",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "El automóvil partió del reposo y se encontró con la pendiente de una montaña, a la que ascendió en una hora, después recorrió la meseta de la montaña a \\(60\\,\\frac{km}{h}\\) durante dos horas, en la hora siguiente descendió a \\(60\\,\\frac{km}{h}\\).",
+          "texto": "El automóvil partió del reposo y se encontró con la pendiente de una montaña, a la que ascendió en una hora, después recorrió la meseta de la montaña a 60 km hdurante dos horas, en la hora siguiente descendió a 60 km h.",
           "imagen": null
         }
       ],
@@ -2397,28 +2397,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "Como se muestra en la figura, una persona empuja las cajas A y B, de \\(3\\) y \\(2\\,kg\\), respectivamente. Si la fuerza neta aplicada es de \\(15\\,N\\), ¿qué aceleración estará presente en la caja B?",
+        "contenido": "Como se muestra en la figura, una persona empuja las cajas A y B, de 3 y 2 kg, respectivamente. Si la fuerza neta aplicada es de 15 N, ¿qué aceleración estará presente en la caja B?",
         "imagen": "imagenes/ecoems/simulador_1/p071.png"
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(1.2\\,\\frac{m}{s^{2}}\\)",
+          "texto": "1.2 2 m s",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(5\\,\\frac{m}{s^{2}}\\)",
+          "texto": "5 2 m s",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(7.5\\,\\frac{m}{s^{2}}\\)",
+          "texto": "7.5 2 m s",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(3\\,\\frac{m}{s^{2}}\\)",
+          "texto": "3 2 m s",
           "imagen": null
         }
       ],
@@ -2431,28 +2431,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Un barco navegando en altamar detiene las máquinas que lo impulsan. Si su aceleración es de \\(-0.1\\,\\frac{m}{s^{2}}\\) y su masa de \\(150,000\\,kg\\) ¿cuál es la magnitud de la fuerza que frena al barco?",
+        "contenido": "Un barco navegando en altamar detiene las máquinas que lo impulsan. Si su aceleración es de –0.1 2 m s y su masa de 150,000 kg ¿cuál es la magnitud de la fuerza que frena al barco?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(4500\\,N\\)",
+          "texto": "4500 N",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(500\\,N\\)",
+          "texto": "500 N",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(450\\,N\\)",
+          "texto": "450 N",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(15000\\,N\\)",
+          "texto": "15000 N",
           "imagen": null
         }
       ],
@@ -2505,7 +2505,7 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "alta a la baja – ambas llegan a \\(0^{\\circ}C\\)",
+          "texto": "alta a la baja – ambas llegan a 0 °C",
           "imagen": null
         },
         {
@@ -2533,28 +2533,28 @@
       "materia": "Física",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Una prensa hidráulica tiene dos émbolos de áreas de \\(5\\,cm^{2}\\) y \\(10\\,cm^{2}\\), si el émbolo de área menor se le aplica una fuerza de \\(20\\,N\\), ¿cuál será la fuerza ejercida en el otro émbolo?",
+        "contenido": "Una prensa hidráulica tiene dos émbolos de áreas de 5 cm2 y 10 cm2, si el émbolo de área menor se le aplica una fuerza de 20 N, ¿cuál será la fuerza ejercida en el otro émbolo?",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(10\\,N\\)",
+          "texto": "10 N",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(25\\,N\\)",
+          "texto": "25 N",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(40\\,N\\)",
+          "texto": "40 N",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(100\\,N\\)",
+          "texto": "100 N",
           "imagen": null
         }
       ],
@@ -2839,28 +2839,28 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Se tienen \\(100\\) gramos de hielo a \\(-10^{\\circ}C\\) en un recipiente cerrado. Se eleva la temperatura hasta alcanzar, primero, los \\(20^{\\circ}C\\); después la temperatura llega a \\(110^{\\circ}C\\).\n\nIndica cuántos gramos de agua en estado líquido se han obtenido a la temperatura de \\(20^{\\circ}C\\), y cuántos gramos de vapor se han producido al alcanzarse la temperatura de \\(110^{\\circ}C\\).",
+        "contenido": "Se tienen 100 gramos de hielo a –10 °C en un recipiente cerrado. Se eleva la temperatura hasta alcanzar, primero, los 20 °C; después la temperatura llega a 110 °C.\n\nIndica cuántos gramos de agua en estado líquido se han obtenido a la temperatura de 20 °C, y cuántos gramos de vapor se han producido al alcanzarse la temperatura de 110 °C.",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(120\\,g\\) de agua y \\(220\\,g\\) de vapor.",
+          "texto": "120 g de agua y 220 g de vapor.",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(120\\,g\\) de agua y \\(120\\,g\\) de vapor.",
+          "texto": "120 g de agua y 120 g de vapor.",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(100\\,g\\) de agua y \\(100\\,g\\) de vapor.",
+          "texto": "100 g de agua y 100 g de vapor.",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(100\\,g\\) de agua y \\(120\\,g\\) de vapor.",
+          "texto": "100 g de agua y 120 g de vapor.",
           "imagen": null
         }
       ],
@@ -2907,28 +2907,28 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Un átomo con \\(Z = 20\\) y \\(40\\) neutrones, tiene ___ protones.",
+        "contenido": "Un átomo con Z 20 y 40 neutrones, tiene ___ protones.",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(60\\)",
+          "texto": "60",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(10\\)",
+          "texto": "10",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(20\\)",
+          "texto": "20",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(40\\)",
+          "texto": "40",
           "imagen": null
         }
       ],
@@ -2941,7 +2941,7 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "La representación \\(H\\cdot\\) corresponde a",
+        "contenido": "La representación corresponde a",
         "imagen": null
       },
       "opciones": [
@@ -3049,22 +3049,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(2H_{2}O_{2} \\rightarrow 2H_{2}O + O_{2}\\)",
+          "texto": "2H2O2 → 2H2O + O2",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(2H_{2} + O_{2} \\rightarrow 2H_{2}O\\)",
+          "texto": "2H2 + O2 → 2H2O",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(NaOH + HCl \\rightarrow NaCl + H_{2}O\\)",
+          "texto": "NaOH + HCl → NaCl + H2O",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(CO_{2} + H_{2}O \\rightarrow H_{2}CO_{3}\\)",
+          "texto": "CO2 + H2O → H2CO3",
           "imagen": null
         }
       ],
@@ -3111,28 +3111,28 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En la siguiente ecuación \\(Zn + CuSO_{4} \\rightarrow Cu + ZnSO_{4}\\) el ________ se reduce y el ________ se oxida.",
+        "contenido": "En la siguiente ecuación Zn + CuSO4 → Cu + ZnSO4 el ________ se reduce y el ________ se oxida.",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(Cu - Zn\\)",
+          "texto": "Cu – Zn",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(Zn - Cu\\)",
+          "texto": "Zn – Cu",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(S - O\\)",
+          "texto": "S – O",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(O - S\\)",
+          "texto": "O – S",
           "imagen": null
         }
       ],
@@ -3593,22 +3593,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(30^{\\circ}\\,N, 10^{\\circ}\\,W\\)",
+          "texto": "30° N, 10° W",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(30^{\\circ}\\,S, 10^{\\circ}\\,E\\)",
+          "texto": "30° S, 10° E",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(10^{\\circ}\\,N, 30^{\\circ}\\,W\\)",
+          "texto": "10° N, 30° W",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(10^{\\circ}\\,S, 30^{\\circ}\\,E\\)",
+          "texto": "10° S, 30° E",
           "imagen": null
         }
       ],
@@ -3689,7 +3689,7 @@
       "materia": "Geografía",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Capa de la atmósfera que se encuentra desde los \\(10-15\\,km\\) y llega hasta los \\(45-50\\,km\\) de altura y se localiza la capa de ozono.",
+        "contenido": "Capa de la atmósfera que se encuentra desde los 10–15 km y llega hasta los 45–50 km de altura y se localiza la capa de ozono.",
         "imagen": null
       },
       "opciones": [
@@ -3927,7 +3927,7 @@
       "materia": "Geografía",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Área con una amplitud de \\(200\\) millas náuticas sobre la cual un Estado tiene derechos especiales para su exploración, explotación y utilización de recursos.",
+        "contenido": "Área con una amplitud de 200 millas náuticas sobre la cual un Estado tiene derechos especiales para su exploración, explotación y utilización de recursos.",
         "imagen": null
       },
       "opciones": [
