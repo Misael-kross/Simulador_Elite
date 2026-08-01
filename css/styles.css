@@ -516,7 +516,7 @@ footer {
 
   .zona-pregunta img {
     max-width: 100%;
-    max-height: 240px;
+    max-height: none;
   }
 
   .zona-opciones {
@@ -873,4 +873,51 @@ button {
   .footer-aviso {
     font-size: 0.78rem;
   }
+    .simulador-disponible {
+  opacity: 1;
+  filter: none;
+}
+
+.simulador-pendiente {
+  opacity: 0.45;
+  filter: grayscale(0.6);
+}
+
+.simulador-pendiente:hover {
+  opacity: 0.7;
+}
+}
+
+/* Formato HTML dentro de preguntas y respuestas */
+.texto-pregunta {
+  line-height: 1.6;
+}
+
+.texto-pregunta p {
+  margin: 0 0 18px;
+}
+
+.texto-pregunta p:last-child {
+  margin-bottom: 0;
+}
+
+.numero-pregunta {
+  font-weight: 900;
+}
+
+.texto-pregunta u,
+.texto-opcion u {
+  text-underline-offset: 3px;
+}
+
+.texto-opcion {
+  line-height: 1.5;
+}
+
+.texto-opcion p {
+  margin: 0 0 10px;
+}
+
+.texto-opcion p:last-child {
+  margin-bottom: 0;
 }
