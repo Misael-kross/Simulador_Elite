@@ -51,7 +51,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Selecciona el tema del siguiente texto.\n\n\"Manuel Gutiérrez Nájera se inició, desde muy joven, como escritor. A los diecisiete años apareció su primera publicación, y durante las dos décadas siguientes, colaboró en cerca de treinta y seis diarios y revistas literarias de la época, en ocasiones hasta con cinco entregas al día. Para tan ardua tarea utilizó alrededor de veintiséis seudónimos...\".\n\nClark de Lara, Belem. Por donde se sube al cielo, Introducción.",
+        "contenido": "Selecciona el tema del siguiente texto.<br><br><em>\n\n\"Manuel Gutiérrez Nájera se inició, desde muy joven, como escritor. A los diecisiete años apareció su primera publicación, y durante las dos décadas siguientes, colaboró en cerca de treinta y seis diarios y revistas literarias de la época, en ocasiones hasta con cinco entregas al día. Para tan ardua tarea utilizó alrededor de veintiséis seudónimos...\".</em><br><br>\n\nClark de Lara, Belem. <br>Por donde se sube al cielo, <br>Introducción.",
         "imagen": null
       },
       "opciones": [
@@ -85,7 +85,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Mediante qué recurso se desarrollan las ideas en el siguiente párrafo?\n\nPara facilitar su estudio, los especialistas dividen la prehistoria en tres grandes etapas: el Paleolítico, el Mesolítico y el Neolítico. El periodo Paleolítico abarca desde la aparición de los primeros homínidos hace unos cuatro millones de años hasta el descubrimiento de la agricultura. El Mesolítico es una etapa de tránsito entre el Paleolítico y el Neolítico en la cual el ser humano debió adaptarse a grandes cambios climáticos, causados por el aumento de temperatura del planeta, lo cual puso fin a las glaciaciones y favoreció la aparición de la agricultura. Finalmente, la práctica de la agricultura y la ganadería es el hecho que determina el inicio del Neolítico.\n\nRosario Rico et al., Historia universal.",
+        "contenido": "¿Mediante qué recurso se desarrollan las ideas en el siguiente párrafo?<br><br><em>\n\nPara facilitar su estudio, los especialistas dividen la prehistoria en tres grandes etapas: el Paleolítico, el Mesolítico y el Neolítico. El periodo Paleolítico abarca desde la aparición de los primeros homínidos hace unos cuatro millones de años hasta el descubrimiento de la agricultura. El Mesolítico es una etapa de tránsito entre el Paleolítico y el Neolítico en la cual el ser humano debió adaptarse a grandes cambios climáticos, causados por el aumento de temperatura del planeta, lo cual puso fin a las glaciaciones y favoreció la aparición de la agricultura. Finalmente, la práctica de la agricultura y la ganadería es el hecho que determina el inicio del Neolítico.\n\n</em><br><br>Rosario Rico et al., <br>Historia universal.",
         "imagen": null
       },
       "opciones": [
@@ -119,7 +119,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Elige las oraciones que usan nexos para introducir ideas.\n\nI. El Estridentismo en México inició en 1921; fue un grupo de intelectuales que reunió pintores, músicos, además de escritores destacados. II. El Simbolismo y el Parnasianismo surgieron en Francia; influyeron, por ejemplo, en el Modernismo, además de legarnos una gran tradición poética. III. El Modernismo es considerado como el movimiento que inaugura las literaturas de vanguardia. IV. Los Contemporáneos se conocían como \"El grupo sin grupo\", y eran intelectuales polifacéticos. V. Estudiar los movimientos de vanguardia nos lleva a entender la mentalidad del hombre del siglo XX.",
+        "contenido": "Elige las oraciones que usan nexos para introducir ideas.<br><br>\n\nI. El Estridentismo en México inició en 1921; fue un grupo de intelectuales que reunió pintores, músicos, además de escritores destacados. <br>II. El Simbolismo y el Parnasianismo surgieron en Francia; influyeron, por ejemplo, en el Modernismo, además de legarnos una gran tradición poética. <br>III. El Modernismo es considerado como el movimiento que inaugura las literaturas de vanguardia. <br>IV. Los Contemporáneos se conocían como \"El grupo sin grupo\", y eran intelectuales polifacéticos. <br>V. Estudiar los movimientos de vanguardia nos lleva a entender la mentalidad del hombre del siglo XX.",
         "imagen": null
       },
       "opciones": [
@@ -153,7 +153,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Las palabras subrayadas en el siguiente fragmento tienen como propósito\n\nDurante mucho tiempo el ser humano ha tenido sed de saber qué son los sueños. Mi teoría, en primer lugar, considera que son una realidad alterna, similar a la del reflejo en el espejo; también pueden ser considerados una forma en la que nuestros cerebros logran vivir otras realidades; finalmente, como muchos artistas han demostrado, son fruto de mentes creativas... dime ¿qué soñaste hoy?",
+        "contenido": "Las palabras subrayadas en el siguiente fragmento tienen como propósito<br><br><em>\n\nDurante mucho tiempo el ser humano ha tenido sed de saber qué son los sueños. Mi teoría, <u>en primer lugar,</u> considera que son una realidad alterna, similar a la del reflejo en el espejo; <u>también</u> pueden ser considerados una forma en la que nuestros cerebros logran vivir otras realidades; <u>finalmente,</u> como muchos artistas han demostrado, son fruto de mentes creativas... dime ¿qué soñaste hoy?</em>",
         "imagen": null
       },
       "opciones": [
@@ -187,7 +187,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Determina cuál es el signo de puntuación que debe sustituir a la línea en el siguiente párrafo.\n\nHace poco más de una semana entrevisté a Emmanuel Carballo. No sé si fue la última entrevista que dio, realmente quisiera que no lo fuera. Me gustaría poder hacer lo que acordamos al despedirnos ________ volver a verlo en unos días, llevarle el libro que me prestó tras prometerle que era devuelve-libros, y continuar con esa conversación que ya quedó por siempre trunca.\n\nwww.jornada.unam.mx",
+        "contenido": "Determina cuál es el signo de puntuación que debe sustituir a la línea en el siguiente párrafo.<br><br><em>\n\nHace poco más de una semana entrevisté a Emmanuel Carballo. No sé si fue la última entrevista que dio, realmente quisiera que no lo fuera. Me gustaría poder hacer lo que acordamos al despedirnos ________ volver a verlo en unos días, llevarle el libro que me prestó tras prometerle que era devuelve-libros, y continuar con esa conversación que ya quedó por siempre trunca</em>.\n\n<br><br>www.jornada.unam.mx",
         "imagen": null
       },
       "opciones": [
@@ -221,7 +221,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Identifica la oración principal en el siguiente texto.\n\nABUELO, ¿QUe SON LAS FLORES? –Las flores son los ojos de las plantas, como tus ojos son las flores en el jardín de tu rostro. Por esas flores, ojos de colores con aromas, las plantas miran, atraen, alegran y curan el alma de los hombres.\n\nMiguel Cocom Pech. (Poeta maya)",
+        "contenido": "Identifica la oración principal en el siguiente texto.<br><br><em>\n\nABUELO, ¿QUe SON LAS FLORES? –Las flores son los ojos de las plantas, como tus ojos son las flores en el jardín de tu rostro. Por esas flores, ojos de colores con aromas, las plantas miran, atraen, alegran y curan el alma de los hombres.\n\n</em><br><br>Miguel Cocom Pech. <br>(Poeta maya)",
         "imagen": null
       },
       "opciones": [
@@ -289,7 +289,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Lee el siguiente párrafo e indica a qué categoría pertenecen los elementos subrayados.\n\nJorge era un hombre, un grave guerrero, hermoso a su manera, digno de la admiración con que le miraba Miguel. Alto y membrudo, llevaba con marcial desembarazo [...] el arnés entero de batalla [...] El rostro de Jorge respiraba ardor y lealtad: pálido, de garzos ojos, una puntiaguda barba castaña lo hacía más varonil.",
+        "contenido": "Lee el siguiente párrafo e indica a qué categoría pertenecen los elementos subrayados.<br><br><em>\n\nJorge era un hombre, un <u>grave</u> guerrero, hermoso a su manera, <u>digno</u> de la admiración con que le miraba Miguel. Alto y <u>membrudo,</u> llevaba con <u>marcial</u> desembarazo [...] el arnés entero de batalla [...] El rostro de Jorge respiraba ardor y lealtad: pálido, de <u>garzos</u> ojos, una <u>puntiaguda</u> barba castaña lo hacía más varonil.</em>",
         "imagen": null
       },
       "opciones": [
@@ -323,7 +323,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿En qué tiempo están conjugados los verbos subrayados en el siguiente texto?\n\nAureliano, el primer ser humano que nació en Macondo [...] Mientras le cortaban el ombligo movía la cabeza de un lado a otro reconociendo las cosas del cuarto, y examinaba el rostro de la gente con una curiosidad sin asombro. Luego, indiferente a quienes se acercaban a conocerlo, mantuvo la atención concentrada en el techo de palma, que parecía a punto de derrumbarse bajo la tremenda presión de la lluvia.\n\nG. García Márquez. Cien años de soledad.",
+        "contenido": "¿En qué tiempo están conjugados los verbos subrayados en el siguiente texto?<br><br><em>\n\nAureliano, el primer ser humano que nació en Macondo [...] Mientras le <u>cortaban</u> el ombligo <u>movía</u> la cabeza de un lado a otro reconociendo las cosas del cuarto, y <u>examinaba</u> el rostro de la gente con una curiosidad sin asombro. Luego, indiferente a quienes <u>se acercaban</u> a conocerlo, mantuvo la atención concentrada en el techo de palma, que <u>parecía</u> a punto de derrumbarse bajo la tremenda presión de la lluvia.\n\n</em><br>G. García Márquez. <br>Cien años de soledad.",
         "imagen": null
       },
       "opciones": [
@@ -357,7 +357,7 @@
       "materia": "Español",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Lee el texto y contesta después a lo que se pide.\n\nTriunfo de mexicanos indocumentados en concurso de robótica llega al cine De la mano de Jamie Lee Curtis, Marisa Tomei y George López, Spare Parts lleva al cine la historia real de cuatro alumnos mexicanos e indocumentados que en 2004 ganaron un concurso de robótica persiguiendo su \"sueño americano\". Los jóvenes, guiados por sus profesores Fredi Lajvardi y Allan Cameron ganaron la competición patrocinada por la NASA con un presupuesto menor a mil dólares, superando los artilugios de los equipos de Stanford y del MIT, entre otros. La película plasma además las dificultades que afrontaban a diario estos adolescentes, deseosos de convertirse en estadunidenses pero que vivían con el miedo de ser deportados en cualquier momento. péú¡eéú¡ís, dirigida por Sean McNamara, se estrena este viernes en Estados Unidos y a lo largo de los próximos meses en Latinoamérica bajo el título de La vida robot. \"Este filme es importante para la cultura latina porque se hacen pocas películas tan reales y fuertes como ésta\", aseguró López en una reciente mesa redonda con periodistas en Los Ángeles. El actor de origen mexicano, muy popular por sus comedias, encarna en este drama a Fredi Cameron, una mezcla de los dos profesores de la historia real.\n\nEn la frase subrayada se advierte que la intención de quien habla es",
+        "contenido": "Lee el texto y contesta después a lo que se pide.<br><br><em>\n\nTriunfo de mexicanos indocumentados en concurso de robótica llega al cine<br> De la mano de Jamie Lee Curtis, Marisa Tomei y George López, Spare Parts lleva al cine la historia real de cuatro alumnos mexicanos e indocumentados que en 2004 ganaron un concurso de robótica persiguiendo su \"sueño americano\".<br> Los jóvenes, guiados por sus profesores Fredi Lajvardi y Allan Cameron ganaron la competición patrocinada por la NASA con un presupuesto menor a mil dólares, superando los artilugios de los equipos de Stanford y del MIT, entre otros.<br> La película plasma además las dificultades que afrontaban a diario estos adolescentes, deseosos de convertirse en estadunidenses pero que vivían con el miedo de ser deportados en cualquier momento.<br> Spare parts, dirigida por Sean McNamara, se estrena este viernes en Estados Unidos y a lo largo de los próximos meses en Latinoamérica bajo el título de La vida robot.<br> <u>\"Este filme es importante para la cultura latina porque se hacen pocas películas tan reales y fuertes como ésta\"</u>, aseguró López en una reciente mesa redonda con periodistas en Los Ángeles.<br> El actor de origen mexicano, muy popular por sus comedias, encarna en este drama a Fredi Cameron, una mezcla de los dos profesores de la historia real.\n\n<em><br>En la frase subrayada se advierte que la intención de quien habla es",
         "imagen": null
       },
       "opciones": [
@@ -425,7 +425,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "HABILIDAD VERBAL\n\nLee el texto y responde de la pregunta 13 a la 16.\n\nEl contador de cuentos –¿De dónde sacas tus cuentos? –Del pozo. –¿Del pozo? –Sí, de pozo. Del fondo del pozo. Están revueltos con el agua, con las ranas y con las estrellas; pero hay que saber sacarlos... El contador de cuentos guarda un silencio de enigma. Sentado sobre los adobes de la barda y balanceando al aire sus piernas de barro, mira de reojo a \"la preguntona\". \"La preguntona\" es una niñita frágil, como de cera: blanca y crédula. El contador de cuentos sabe la importancia que sus embustes le han ganado entre la chiquillería de Palo Verde. Al final de los días, cuando empieza a parpadear la tarde, él se sienta en la barda que marca una raya paralela entre la milpa y el camino. Allí van todos los niños del pueblo a embaucarse con el milagro de su fantasía, plagada de campanas, de príncipes malos y de mendigos santos; de coyotes, de nahuales y de brujas. –¿Sabes? –dice, como haciendo a la preguntona la merced de confiarle un secreto–. El pozo dice sus cuentos en las noches. Cuando hay luna es cuando se pueden sacar los más bonitos. –¿Y cómo los sacas? –¡Pues...nada! Me siento en el brocal y meto la cabeza dentro. Allí me estoy quietecito, mirando para abajo y escuchando, escuchando. Luego de estar así un rato puedo oír lo que el pozo dice... El auditorio contiene la respiración para que no se escape ni una sola de las palabras que el embustero hilvana. Carmen Báez. La Roba Pájaros..\n\nEl texto relata una historia en la que",
+        "contenido": "Lee el texto y responde de la pregunta 13 a la 16.\n\n<br><br><em>El contador de cuentos <br>–¿De dónde sacas tus cuentos? <br>–Del pozo. <br>–¿Del pozo? <br>–Sí, de pozo. Del fondo del pozo. Están revueltos con el agua, con las ranas y con las estrellas; pero hay que saber sacarlos... El contador de cuentos guarda un silencio de enigma. Sentado sobre los adobes de la barda y balanceando al aire sus piernas de barro, mira de reojo a \"la preguntona\".<br> \"La preguntona\" es una niñita frágil, como de cera: blanca y crédula.<br> El contador de cuentos sabe la importancia que sus embustes le han ganado entre la chiquillería de Palo Verde. Al final de los días, cuando empieza a parpadear la tarde, él se sienta en la barda que marca una raya paralela entre la milpa y el camino. Allí van todos los niños del pueblo a embaucarse con el milagro de su fantasía, plagada de campanas, de príncipes malos y de mendigos santos; de coyotes, de nahuales y de brujas. <br>–¿Sabes? <br>–dice, como haciendo a la preguntona la merced de confiarle un secreto–. El pozo dice sus cuentos en las noches. Cuando hay luna es cuando se pueden sacar los más bonitos. <br>–¿Y cómo los sacas? <br>–¡Pues...nada! Me siento en el brocal y meto la cabeza dentro. Allí me estoy quietecito, mirando para abajo y escuchando, escuchando. Luego de estar así un rato puedo oír lo que el pozo dice... El auditorio contiene la respiración para que no se escape ni una sola de las palabras que el embustero hilvana.</em><br><br> Carmen Báez. <br>La Roba Pájaros..<br><br>\n\nEl texto relata una historia en la que...",
         "imagen": null
       },
       "opciones": [
@@ -459,7 +459,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "mixta",
-        "contenido": "Completa el siguiente cuadro sinóptico.",
+        "contenido": "Lee el texto y responde de la pregunta 13 a la 16.\n\n<br><br><em>El contador de cuentos <br>–¿De dónde sacas tus cuentos? <br>–Del pozo. <br>–¿Del pozo? <br>–Sí, de pozo. Del fondo del pozo. Están revueltos con el agua, con las ranas y con las estrellas; pero hay que saber sacarlos... El contador de cuentos guarda un silencio de enigma. Sentado sobre los adobes de la barda y balanceando al aire sus piernas de barro, mira de reojo a \"la preguntona\".<br> \"La preguntona\" es una niñita frágil, como de cera: blanca y crédula.<br> El contador de cuentos sabe la importancia que sus embustes le han ganado entre la chiquillería de Palo Verde. Al final de los días, cuando empieza a parpadear la tarde, él se sienta en la barda que marca una raya paralela entre la milpa y el camino. Allí van todos los niños del pueblo a embaucarse con el milagro de su fantasía, plagada de campanas, de príncipes malos y de mendigos santos; de coyotes, de nahuales y de brujas. <br>–¿Sabes? <br>–dice, como haciendo a la preguntona la merced de confiarle un secreto–. El pozo dice sus cuentos en las noches. Cuando hay luna es cuando se pueden sacar los más bonitos. <br>–¿Y cómo los sacas? <br>–¡Pues...nada! Me siento en el brocal y meto la cabeza dentro. Allí me estoy quietecito, mirando para abajo y escuchando, escuchando. Luego de estar así un rato puedo oír lo que el pozo dice... El auditorio contiene la respiración para que no se escape ni una sola de las palabras que el embustero hilvana.</em><br><br> Carmen Báez. <br>La Roba Pájaros..<br><br>\n\n Completa el siguiente cuadro sinóptico.",
         "imagen": "imagenes/ecoems/simulador_1/p014.png"
       },
       "opciones": [
@@ -493,7 +493,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En la oración La preguntona es una niñita frágil, como de cera: blanca y crédula, encontramos una relación",
+        "contenido": "Lee el texto y responde de la pregunta 13 a la 16.\n\n<br><br><em>El contador de cuentos <br>–¿De dónde sacas tus cuentos? <br>–Del pozo. <br>–¿Del pozo? <br>–Sí, de pozo. Del fondo del pozo. Están revueltos con el agua, con las ranas y con las estrellas; pero hay que saber sacarlos... El contador de cuentos guarda un silencio de enigma. Sentado sobre los adobes de la barda y balanceando al aire sus piernas de barro, mira de reojo a \"la preguntona\".<br> \"La preguntona\" es una niñita frágil, como de cera: blanca y crédula.<br> El contador de cuentos sabe la importancia que sus embustes le han ganado entre la chiquillería de Palo Verde. Al final de los días, cuando empieza a parpadear la tarde, él se sienta en la barda que marca una raya paralela entre la milpa y el camino. Allí van todos los niños del pueblo a embaucarse con el milagro de su fantasía, plagada de campanas, de príncipes malos y de mendigos santos; de coyotes, de nahuales y de brujas. <br>–¿Sabes? <br>–dice, como haciendo a la preguntona la merced de confiarle un secreto–. El pozo dice sus cuentos en las noches. Cuando hay luna es cuando se pueden sacar los más bonitos. <br>–¿Y cómo los sacas? <br>–¡Pues...nada! Me siento en el brocal y meto la cabeza dentro. Allí me estoy quietecito, mirando para abajo y escuchando, escuchando. Luego de estar así un rato puedo oír lo que el pozo dice... El auditorio contiene la respiración para que no se escape ni una sola de las palabras que el embustero hilvana.</em><br><br> Carmen Báez. <br>La Roba Pájaros..<br><br></em>\n\n En la oración <em>La preguntona es una niñita frágil, como de cera: blanca y crédula</em>, encontramos una relación",
         "imagen": null
       },
       "opciones": [
@@ -527,7 +527,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "En el texto, el término \"brocal\" se refiere a",
+        "contenido": "Lee el texto y responde de la pregunta 13 a la 16.\n\n<br><br><em>El contador de cuentos <br>–¿De dónde sacas tus cuentos? <br>–Del pozo. <br>–¿Del pozo? <br>–Sí, de pozo. Del fondo del pozo. Están revueltos con el agua, con las ranas y con las estrellas; pero hay que saber sacarlos... El contador de cuentos guarda un silencio de enigma. Sentado sobre los adobes de la barda y balanceando al aire sus piernas de barro, mira de reojo a \"la preguntona\".<br> \"La preguntona\" es una niñita frágil, como de cera: blanca y crédula.<br> El contador de cuentos sabe la importancia que sus embustes le han ganado entre la chiquillería de Palo Verde. Al final de los días, cuando empieza a parpadear la tarde, él se sienta en la barda que marca una raya paralela entre la milpa y el camino. Allí van todos los niños del pueblo a embaucarse con el milagro de su fantasía, plagada de campanas, de príncipes malos y de mendigos santos; de coyotes, de nahuales y de brujas. <br>–¿Sabes? <br>–dice, como haciendo a la preguntona la merced de confiarle un secreto–. El pozo dice sus cuentos en las noches. Cuando hay luna es cuando se pueden sacar los más bonitos. <br>–¿Y cómo los sacas? <br>–¡Pues...nada! Me siento en el brocal y meto la cabeza dentro. Allí me estoy quietecito, mirando para abajo y escuchando, escuchando. Luego de estar así un rato puedo oír lo que el pozo dice... El auditorio contiene la respiración para que no se escape ni una sola de las palabras que el embustero hilvana.</em><br><br> Carmen Báez. <br>La Roba Pájaros..<br><br>\n\n En el texto, el término <em>brocal</em> se refiere a",
         "imagen": null
       },
       "opciones": [
@@ -561,7 +561,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Lee el texto y responde de la pregunta 17 a la 19.\n\nLos agujeros negros, realidad o ficción\n\nEl Universo, con su oscuridad e inmensidad, guarda aún muchos misterios para el hombre, a pesar de que la investigación científica en este campo ha sido constante y apasionada, con el fin de conocer lo que hay más allá de nuestro mundo. Los agujeros negros entran en esta diversidad de cuerpos siderales que habitan el espacio infinito, que lo forman y lo caracterizan. Mucho se ha estudiado y conjeturado sobre ellos; algunos piensan que son producto de la ciencia-ficción y que sólo tienen cabida en las películas y relatos fantásticos. La realidad es otra muy diferente. El término agujero negro fue acuñado en 1967 por el físico estadounidense John Wheeler, pero el primero en tratar de explicarlos y describirlos fue John Mitchell en 1783, cuando habla de la atracción gravitacional que ejerce cualquier cuerpo celeste sobre los objetos, en especial la luz, bajo las leyes físicas de Newton. Sin embargo, es hasta la aparición de la Teoría General de la Relatividad de Albert Einstein que se pudo dar una definición convincente de este fenómeno. Dicha teoría establece que una estrella, en la parte final de su existencia, altamente masiva y compacta tiene un campo gravitatorio tan intenso que la luz no puede escapar. Tomando en cuenta que nada viaja más rápido que la luz, entonces de los agujeros negros no escapa ningún tipo de partículas u ondas. En 1967, Wernel Israel, científico canadiense, demostró que los agujeros negros sin rotación son perfectamente esféricos, y su tamaño depende únicamente de la masa. Por su parte, Roy Kerr descubrió matemáticamente que aquellos hoyos negros con rotación constante se deforman hacia los lados cerca de su ecuador o se achatan en los polos (como la forma de la Tierra); cuanto más rápido giran, más se deforman.\n\nPero, ¿cómo se puede comprobar su existencia y forma, si no se pueden ver y no emiten ningún tipo de señales luminosas o radiales? Los agujeros negros han ido conformando toda una teoría basada en la matemática; sin embargo, hay que recordar que estos cuerpos siguen ejerciendo una fuerza gravitatoria sobre los cuerpos cercanos, por tanto, aspiran la materia de planetas y estrellas vecinos. El ejemplo más claro está en el sistema llamado Cygnus X-1, ubicado en la constelación de Cisne, en el cual se aprecia un efecto parecido al que se da cuando el agua o cualquier líquido se escapa en remolinos por un orificio o coladera. Aunque el avance en el estudio de los agujeros negros ha sido gigante en las últimas décadas, falta por resolver, entre otros puntos: ¿qué hay detrás de estos habitantes siderales?, ¿a dónde conducen? Al respecto, algunos astrónomos, entre ellos Carl Sagan, han establecido la posibilidad de que los hoyos negros sean túneles que conduzcan a otros sistemas solares, galaxias o universos de esta época u otra, anterior o futura. Es difícil saber si tal hipótesis es cierta o falsa; lo sabremos algún día cuando nuestro avance tecnológico nos permita estudiar más directa y cercanamente las hendiduras espaciales.\n\nSegún EL SENTIDO GLOBAL DEL TEXTO, los avances en las investigaciones de los agujeros negros han sido",
+        "contenido": "Lee el texto y responde de la pregunta 17 a la 19.\n\n<br><br>Los agujeros negros, realidad o ficción\n\n<br><br><em>El Universo, con su oscuridad e inmensidad, guarda aún muchos misterios para el hombre, a pesar de que la investigación científica en este campo ha sido constante y apasionada, con el fin de conocer lo que hay más allá de nuestro mundo.<br> Los agujeros negros entran en esta diversidad de cuerpos siderales que habitan el espacio infinito, que lo forman y lo caracterizan. Mucho se ha estudiado y conjeturado sobre ellos; algunos piensan que son producto de la ciencia-ficción y que sólo tienen cabida en las películas y relatos fantásticos.<br> La realidad es otra muy diferente. El término agujero negro fue acuñado en 1967 por el físico estadounidense John Wheeler, pero el primero en tratar de explicarlos y describirlos fue John Mitchell en 1783, cuando habla de la atracción gravitacional que ejerce cualquier cuerpo celeste sobre los objetos, en especial la luz, bajo las leyes físicas de Newton.<br> Sin embargo, es hasta la aparición de la Teoría General de la Relatividad de Albert Einstein que se pudo dar una definición convincente de este fenómeno. Dicha teoría establece que una estrella, en la parte final de su existencia, altamente masiva y compacta tiene un campo gravitatorio tan intenso que la luz no puede escapar. Tomando en cuenta que nada viaja más rápido que la luz, entonces de los agujeros negros no escapa ningún tipo de partículas u ondas.<br> En 1967, Wernel Israel, científico canadiense, demostró que los agujeros negros sin rotación son perfectamente esféricos, y su tamaño depende únicamente de la masa. Por su parte, Roy Kerr descubrió matemáticamente que aquellos hoyos negros con rotación constante se deforman hacia los lados cerca de su ecuador o se achatan en los polos (como la forma de la Tierra); cuanto más rápido giran, más se deforman.\n\n<br>Pero, ¿cómo se puede comprobar su existencia y forma, si no se pueden ver y no emiten ningún tipo de señales luminosas o radiales? Los agujeros negros han ido conformando toda una teoría basada en la matemática; sin embargo, hay que recordar que estos cuerpos siguen ejerciendo una fuerza gravitatoria sobre los cuerpos cercanos, por tanto, aspiran la materia de planetas y estrellas vecinos. El ejemplo más claro está en el sistema llamado Cygnus X-1, ubicado en la constelación de Cisne, en el cual se aprecia un efecto parecido al que se da cuando el agua o cualquier líquido se escapa en remolinos por un orificio o coladera.<br> Aunque el avance en el estudio de los agujeros negros ha sido gigante en las últimas décadas, falta por resolver, entre otros puntos: ¿qué hay detrás de estos habitantes siderales?, ¿a dónde conducen? Al respecto, algunos astrónomos, entre ellos Carl Sagan, han establecido la posibilidad de que los hoyos negros sean túneles que conduzcan a otros sistemas solares, galaxias o universos de esta época u otra, anterior o futura.<br> Es difícil saber si tal hipótesis es cierta o falsa; lo sabremos algún día cuando nuestro avance tecnológico nos permita estudiar más directa y cercanamente las hendiduras espaciales.\n\n</em><br><br>Según EL SENTIDO GLOBAL DEL TEXTO, los avances en las investigaciones de los agujeros negros han sido",
         "imagen": null
       },
       "opciones": [
@@ -595,7 +595,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál de los siguientes enunciados es una hipótesis?",
+        "contenido": "Lee el texto y responde de la pregunta 17 a la 19.\n\n<br><br>Los agujeros negros, realidad o ficción\n\n<br><br><em>El Universo, con su oscuridad e inmensidad, guarda aún muchos misterios para el hombre, a pesar de que la investigación científica en este campo ha sido constante y apasionada, con el fin de conocer lo que hay más allá de nuestro mundo.<br> Los agujeros negros entran en esta diversidad de cuerpos siderales que habitan el espacio infinito, que lo forman y lo caracterizan. Mucho se ha estudiado y conjeturado sobre ellos; algunos piensan que son producto de la ciencia-ficción y que sólo tienen cabida en las películas y relatos fantásticos.<br> La realidad es otra muy diferente. El término agujero negro fue acuñado en 1967 por el físico estadounidense John Wheeler, pero el primero en tratar de explicarlos y describirlos fue John Mitchell en 1783, cuando habla de la atracción gravitacional que ejerce cualquier cuerpo celeste sobre los objetos, en especial la luz, bajo las leyes físicas de Newton.<br> Sin embargo, es hasta la aparición de la Teoría General de la Relatividad de Albert Einstein que se pudo dar una definición convincente de este fenómeno. Dicha teoría establece que una estrella, en la parte final de su existencia, altamente masiva y compacta tiene un campo gravitatorio tan intenso que la luz no puede escapar. Tomando en cuenta que nada viaja más rápido que la luz, entonces de los agujeros negros no escapa ningún tipo de partículas u ondas.<br> En 1967, Wernel Israel, científico canadiense, demostró que los agujeros negros sin rotación son perfectamente esféricos, y su tamaño depende únicamente de la masa. Por su parte, Roy Kerr descubrió matemáticamente que aquellos hoyos negros con rotación constante se deforman hacia los lados cerca de su ecuador o se achatan en los polos (como la forma de la Tierra); cuanto más rápido giran, más se deforman.\n\n<br>Pero, ¿cómo se puede comprobar su existencia y forma, si no se pueden ver y no emiten ningún tipo de señales luminosas o radiales? Los agujeros negros han ido conformando toda una teoría basada en la matemática; sin embargo, hay que recordar que estos cuerpos siguen ejerciendo una fuerza gravitatoria sobre los cuerpos cercanos, por tanto, aspiran la materia de planetas y estrellas vecinos. El ejemplo más claro está en el sistema llamado Cygnus X-1, ubicado en la constelación de Cisne, en el cual se aprecia un efecto parecido al que se da cuando el agua o cualquier líquido se escapa en remolinos por un orificio o coladera.<br> Aunque el avance en el estudio de los agujeros negros ha sido gigante en las últimas décadas, falta por resolver, entre otros puntos: ¿qué hay detrás de estos habitantes siderales?, ¿a dónde conducen? Al respecto, algunos astrónomos, entre ellos Carl Sagan, han establecido la posibilidad de que los hoyos negros sean túneles que conduzcan a otros sistemas solares, galaxias o universos de esta época u otra, anterior o futura.<br> Es difícil saber si tal hipótesis es cierta o falsa; lo sabremos algún día cuando nuestro avance tecnológico nos permita estudiar más directa y cercanamente las hendiduras espaciales.\n\n</em><br><br>¿Cuál de los siguientes enunciados es una hipótesis?",
         "imagen": null
       },
       "opciones": [
@@ -629,7 +629,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "¿Cuál es el tema del texto?",
+        "contenido": "Lee el texto y responde de la pregunta 17 a la 19.\n\n<br><br>Los agujeros negros, realidad o ficción\n\n<br><br><em>El Universo, con su oscuridad e inmensidad, guarda aún muchos misterios para el hombre, a pesar de que la investigación científica en este campo ha sido constante y apasionada, con el fin de conocer lo que hay más allá de nuestro mundo.<br> Los agujeros negros entran en esta diversidad de cuerpos siderales que habitan el espacio infinito, que lo forman y lo caracterizan. Mucho se ha estudiado y conjeturado sobre ellos; algunos piensan que son producto de la ciencia-ficción y que sólo tienen cabida en las películas y relatos fantásticos.<br> La realidad es otra muy diferente. El término agujero negro fue acuñado en 1967 por el físico estadounidense John Wheeler, pero el primero en tratar de explicarlos y describirlos fue John Mitchell en 1783, cuando habla de la atracción gravitacional que ejerce cualquier cuerpo celeste sobre los objetos, en especial la luz, bajo las leyes físicas de Newton.<br> Sin embargo, es hasta la aparición de la Teoría General de la Relatividad de Albert Einstein que se pudo dar una definición convincente de este fenómeno. Dicha teoría establece que una estrella, en la parte final de su existencia, altamente masiva y compacta tiene un campo gravitatorio tan intenso que la luz no puede escapar. Tomando en cuenta que nada viaja más rápido que la luz, entonces de los agujeros negros no escapa ningún tipo de partículas u ondas.<br> En 1967, Wernel Israel, científico canadiense, demostró que los agujeros negros sin rotación son perfectamente esféricos, y su tamaño depende únicamente de la masa. Por su parte, Roy Kerr descubrió matemáticamente que aquellos hoyos negros con rotación constante se deforman hacia los lados cerca de su ecuador o se achatan en los polos (como la forma de la Tierra); cuanto más rápido giran, más se deforman.\n\n<br>Pero, ¿cómo se puede comprobar su existencia y forma, si no se pueden ver y no emiten ningún tipo de señales luminosas o radiales? Los agujeros negros han ido conformando toda una teoría basada en la matemática; sin embargo, hay que recordar que estos cuerpos siguen ejerciendo una fuerza gravitatoria sobre los cuerpos cercanos, por tanto, aspiran la materia de planetas y estrellas vecinos. El ejemplo más claro está en el sistema llamado Cygnus X-1, ubicado en la constelación de Cisne, en el cual se aprecia un efecto parecido al que se da cuando el agua o cualquier líquido se escapa en remolinos por un orificio o coladera.<br> Aunque el avance en el estudio de los agujeros negros ha sido gigante en las últimas décadas, falta por resolver, entre otros puntos: ¿qué hay detrás de estos habitantes siderales?, ¿a dónde conducen? Al respecto, algunos astrónomos, entre ellos Carl Sagan, han establecido la posibilidad de que los hoyos negros sean túneles que conduzcan a otros sistemas solares, galaxias o universos de esta época u otra, anterior o futura.<br> Es difícil saber si tal hipótesis es cierta o falsa; lo sabremos algún día cuando nuestro avance tecnológico nos permita estudiar más directa y cercanamente las hendiduras espaciales.\n\n</em><br><br> ¿Cuál es el tema del texto?",
         "imagen": null
       },
       "opciones": [
@@ -663,7 +663,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "De la pregunta 20 a la 22 selecciona la opción con el par de palabras que muestra una relación ANÁLOGA a las que están en mayúsculas.\n\nMÚSICO es a INSTRUMENTO como",
+        "contenido": "De la pregunta 20 a la 22 selecciona la opción con el par de palabras que muestra una relación ANÁLOGA a las que están en mayúsculas.<br>\n\nMÚSICO es a INSTRUMENTO como",
         "imagen": null
       },
       "opciones": [
@@ -697,7 +697,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "TENIS es a CORRER como zapatilla es a",
+        "contenido": "De la pregunta 20 a la 22 selecciona la opción con el par de palabras que muestra una relación ANÁLOGA a las que están en mayúsculas.<br> TENIS es a CORRER como zapatilla es a",
         "imagen": null
       },
       "opciones": [
@@ -731,7 +731,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "HIJO – DESCENDIENTE",
+        "contenido": "De la pregunta 20 a la 22 selecciona la opción con el par de palabras que muestra una relación ANÁLOGA a las que están en mayúsculas.<br> HIJO – DESCENDIENTE",
         "imagen": null
       },
       "opciones": [
@@ -765,7 +765,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "De la pregunta 23 a la 25 selecciona la opción que sustituya con un ANTÓNIMO la palabra en mayúsculas.\n\nLos superhéroes se distinguen por su carácter BIZARRO.",
+        "contenido": "De la pregunta 23 a la 25 selecciona la opción que sustituya con un ANTÓNIMO la palabra en mayúsculas.<br>\n\nLos superhéroes se distinguen por su carácter BIZARRO.",
         "imagen": null
       },
       "opciones": [
@@ -799,7 +799,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "PADECER",
+        "contenido": "De la pregunta 23 a la 25 selecciona la opción que sustituya con un ANTÓNIMO la palabra en mayúsculas.<br> PADECER",
         "imagen": null
       },
       "opciones": [
@@ -833,7 +833,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Actividades CLANDESTINAS.",
+        "contenido": "De la pregunta 23 a la 25 selecciona la opción que sustituya con un ANTÓNIMO la palabra en mayúsculas.<br> Actividades CLANDESTINAS.",
         "imagen": null
       },
       "opciones": [
@@ -867,7 +867,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "De las preguntas 26 a la 28 selecciona la opción que sustituya con un SINÓNIMO la palabra en mayúsculas.\n\nSus palabras fueron ENTRAÑABLES.",
+        "contenido": "De las preguntas 26 a la 28 selecciona la opción que sustituya con un SINÓNIMO la palabra en mayúsculas.\n\n<br>Sus palabras fueron ENTRAÑABLES.",
         "imagen": null
       },
       "opciones": [
@@ -901,7 +901,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Las ocurrencias del Chapulín Colorado me causan HILARIDAD.",
+        "contenido": "De las preguntas 26 a la 28 selecciona la opción que sustituya con un SINÓNIMO la palabra en mayúsculas.\n\n<br> Las ocurrencias del Chapulín Colorado me causan HILARIDAD.",
         "imagen": null
       },
       "opciones": [
@@ -935,7 +935,7 @@
       "materia": "Habilidad verbal",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "El médico actuó con CELERIDAD.",
+        "contenido": "De las preguntas 26 a la 28 selecciona la opción que sustituya con un SINÓNIMO la palabra en mayúsculas.\n\n<br> El médico actuó con CELERIDAD.",
         "imagen": null
       },
       "opciones": [
@@ -1139,28 +1139,28 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Encuentra la factorización de \\(x^{2} - 3x - 18\\).",
+        "contenido": "Factoriza la siguiente expresión. \\(n^{6} - 3n^{3} - 18\\)",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\((x - 6)(x + 3)\\)",
+          "texto": "\\((n^{3} + 3)(n^{3} - 6)\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\((x - 9)(x + 2)\\)",
+          "texto": "\\((n^{3} - 3)(n^{3} + 6)\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\((x + 9)(x - 2)\\)",
+          "texto": "\\((n^{3} - 3)(n^{3} - 6)\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\((x + 6)(x - 3)\\)",
+          "texto": "\\((n^{3} + 3)(n^{3} + 6)\\)",
           "imagen": null
         }
       ],
@@ -1173,32 +1173,32 @@
       "materia": "Matemáticas",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Una solución de la ecuación \\(x^{2} - 2x = 8\\) es",
+        "contenido": "A partir del siguiente sistema de ecuaciones obtén el valor de \\(x\\). \\[\\begin{cases} 5x = 4y + 19 \\\\ 7x + 3y = 18 \\end{cases}\\]",
         "imagen": null
       },
       "opciones": [
         {
           "inciso": "A",
-          "texto": "\\(4\\)",
+          "texto": "\\(x = -3\\)",
           "imagen": null
         },
         {
           "inciso": "B",
-          "texto": "\\(8\\)",
+          "texto": "\\(x = -1\\)",
           "imagen": null
         },
         {
           "inciso": "C",
-          "texto": "\\(6\\)",
+          "texto": "\\(x = 1\\)",
           "imagen": null
         },
         {
           "inciso": "D",
-          "texto": "\\(2\\)",
+          "texto": "\\(x = 3\\)",
           "imagen": null
         }
       ],
-      "respuesta_correcta": "A",
+      "respuesta_correcta": "D",
       "explicacion": "",
       "observaciones": ""
     },
@@ -1519,22 +1519,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p045_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p045_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p045_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p045_opcion_d.png"
         }
       ],
@@ -1553,22 +1553,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p046_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p046_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p046_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p046_opcion_d.png"
         }
       ],
@@ -1621,22 +1621,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p048_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p048_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p048_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p048_opcion_d.png"
         }
       ],
@@ -1655,22 +1655,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p049_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p049_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p049_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p049_opcion_d.png"
         }
       ],
@@ -1689,22 +1689,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p050_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p050_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p050_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p050_opcion_d.png"
         }
       ],
@@ -1757,22 +1757,22 @@
       "opciones": [
         {
           "inciso": "A",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p052_opcion_a.png"
         },
         {
           "inciso": "B",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p052_opcion_b.png"
         },
         {
           "inciso": "C",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p052_opcion_c.png"
         },
         {
           "inciso": "D",
-          "texto": "",
+          "texto": "-",
           "imagen": "imagenes/ecoems/simulador_1/p052_opcion_d.png"
         }
       ],
@@ -2839,7 +2839,7 @@
       "materia": "Química",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Se tienen \\(100\\) gramos de hielo a \\(-10^{\\circ}C\\) en un recipiente cerrado. Se eleva la temperatura hasta alcanzar, primero, los \\(20^{\\circ}C\\); después la temperatura llega a \\(110^{\\circ}C\\).\n\nIndica cuántos gramos de agua en estado líquido se han obtenido a la temperatura de \\(20^{\\circ}C\\), y cuántos gramos de vapor se han producido al alcanzarse la temperatura de \\(110^{\\circ}C\\).",
+        "contenido": "Se tienen \\(100\\) gramos de hielo a \\(-10^{\\circ}C\\) en un recipiente cerrado. Se eleva la temperatura hasta alcanzar, primero, los \\(20^{\\circ}C\\); después la temperatura llega a \\(110^{\\circ}C\\).\n\n<br><br>Indica cuántos gramos de agua en estado líquido se han obtenido a la temperatura de \\(20^{\\circ}C\\), y cuántos gramos de vapor se han producido al alcanzarse la temperatura de \\(110^{\\circ}C\\).",
         "imagen": null
       },
       "opciones": [
@@ -3213,7 +3213,7 @@
       "materia": "Historia",
       "pregunta": {
         "tipo": "texto",
-        "contenido": "Según el nacionalismo del siglo XIX, ¿qué determina lo núcáonúl en cada Estado?",
+        "contenido": "Según el nacionalismo del siglo XIX, ¿qué determina lo <em>nacional</em> en cada Estado?",
         "imagen": null
       },
       "opciones": [
