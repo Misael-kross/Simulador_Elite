@@ -181,7 +181,31 @@ function obtenerRutaSimuladorMateria(categoria, materia, numeroSimulador) {
     ".json"
   );
 }
+async function verificarJsonDisponible(ruta, boton) {
+  if (!ruta) {
+    boton.classList.add("simulador-pendiente");
+    boton.classList.remove("simulador-disponible");
+    return;
+  }
 
+  try {
+    const respuesta = await fetch(ruta + "?v=" + Date.now(), {
+      method: "HEAD",
+      cache: "no-store"
+    });
+
+    if (respuesta.ok) {
+      boton.classList.remove("simulador-pendiente");
+      boton.classList.add("simulador-disponible");
+    } else {
+      boton.classList.add("simulador-pendiente");
+      boton.classList.remove("simulador-disponible");
+    }
+  } catch (error) {
+    boton.classList.add("simulador-pendiente");
+    boton.classList.remove("simulador-disponible");
+  }
+}
 function mostrarSimuladores(nombreCategoria, origen) {
   const titulo = document.getElementById("tituloSimulador");
   const contenedor = document.getElementById("contenedorSimuladores");
@@ -203,14 +227,18 @@ function mostrarSimuladores(nombreCategoria, origen) {
 
   for (let i = 1; i <= 10; i++) {
     const boton = document.createElement("button");
-    boton.className = "boton-simulador";
+    boton.className = "boton-simulador simulador-pendiente";
     boton.textContent = "Simulador " + i;
+
+    const ruta = obtenerRutaSimulador(nombreCategoria, i);
 
     boton.onclick = function () {
       abrirConfiguracionExamen(nombreCategoria, i, false);
     };
 
     contenedor.appendChild(boton);
+
+    verificarJsonDisponible(ruta, boton);
   }
 
   mostrarSeccion("simuladores");
@@ -410,10 +438,11 @@ function mostrarPregunta() {
   const numeroPregunta = pregunta.id || preguntaActual + 1;
   const texto = pregunta.pregunta?.contenido || "";
 
-  const parrafo = document.createElement("p");
-  parrafo.textContent = texto
-    ? numeroPregunta + ") " + texto
-    : numeroPregunta + ") Pregunta sin contenido.";
+  const parrafo = document.createElement("div");
+  parrafo.className = "texto-pregunta";
+  parrafo.innerHTML = texto
+    ? `<span class="numero-pregunta">${numeroPregunta})</span> ${texto}`
+    : `<span class="numero-pregunta">${numeroPregunta})</span> Pregunta sin contenido.`;
 
   contenedor.appendChild(parrafo);
 
@@ -504,8 +533,9 @@ function crearContenidoRespuesta(opcion) {
   const respuestaDiv = document.createElement("div");
   respuestaDiv.className = "respuesta-desplegada";
 
-  const texto = document.createElement("p");
-  texto.textContent = opcion.texto || "Opción sin contenido.";
+  const texto = document.createElement("div");
+  texto.className = "texto-opcion";
+  texto.innerHTML = opcion.texto || "Opción sin contenido.";
   respuestaDiv.appendChild(texto);
 
   if (opcion.imagen) {
