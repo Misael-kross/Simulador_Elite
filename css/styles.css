@@ -403,8 +403,69 @@ button:hover {
   font-size: 0.95rem;
 }
 
-.navegacion-estilo-examen .boton-finalizar {
+
+/* Índice navegable de preguntas */
+.indice-preguntas-contenedor {
+  margin: 22px 0 28px;
+  padding: 18px;
+  background: #f8fafc;
+  border: 2px solid rgba(0, 51, 102, 0.18);
+  border-radius: 20px;
+}
+
+.titulo-indice-preguntas {
+  margin-bottom: 12px;
+  color: var(--azul-unam);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.indice-preguntas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 9px;
+}
+
+.boton-indice-pregunta {
+  min-width: 44px;
+  min-height: 42px;
+  padding: 8px 6px;
+  border-radius: 10px;
+  background: #e5e7eb;
+  color: #111827;
+  border: 2px solid transparent;
+  box-shadow: none;
+}
+
+.boton-indice-pregunta:hover {
+  background: var(--azul-claro);
+  color: var(--azul-unam);
+}
+
+.boton-indice-pregunta.respondida {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.boton-indice-pregunta.actual {
+  background: var(--dorado);
+  color: #020617;
+  border-color: var(--azul-unam);
+  transform: translateY(-1px);
+}
+
+.zona-finalizar-examen {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4cm;
+}
+
+.zona-finalizar-examen .boton-finalizar {
   background: var(--rojo);
+  color: var(--blanco);
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-size: 0.95rem;
 }
 
 .resultado-card,
@@ -920,4 +981,22 @@ button {
 
 .texto-opcion p:last-child {
   margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  .indice-preguntas {
+    grid-template-columns: repeat(auto-fill, minmax(38px, 1fr));
+    gap: 7px;
+  }
+
+  .boton-indice-pregunta {
+    min-width: 38px;
+    min-height: 38px;
+    font-size: 0.85rem;
+  }
+
+  .zona-finalizar-examen {
+    margin-top: 3cm;
+    justify-content: center;
+  }
 }
