@@ -85,7 +85,7 @@
       <div class="lista-botones" id="contenedorSimuladores"></div>
     </section>
     <section id="configuracionExamen" class="seccion oculto">
-      <button class="boton-regresar" onclick="mostrarSeccion('simuladores')">Regresar</button>
+      <button class="boton-regresar" onclick="regresarDesdeConfiguracion()">Regresar</button>
       <h2 id="tituloConfigExamen">Configuración del examen</h2>
       <div class="panel-config">
         <label class="switch-linea"><input type="checkbox" id="activarContador"> Activar contador regresivo</label>
@@ -101,11 +101,17 @@
           <div><h1 id="materiaActual">Materia</h1><p id="progresoPregunta">Pregunta -- de --</p></div>
           <div id="contador" class="contador oculto">180:00</div>
         </div>
+        <div class="indice-preguntas-contenedor">
+          <p class="titulo-indice-preguntas">Índice de preguntas</p>
+          <div id="indicePreguntas" class="indice-preguntas" aria-label="Índice de preguntas del examen"></div>
+        </div>
         <div id="contenidoVisible" class="zona-pregunta"></div>
         <div class="zona-opciones" id="zonaOpciones"></div>
         <div class="navegacion-estilo-examen">
           <button onclick="preguntaAnterior()">◀◀ ANTERIOR</button>
           <button onclick="preguntaSiguiente()">SIGUIENTE ▶▶</button>
+        </div>
+        <div class="zona-finalizar-examen">
           <button class="boton-finalizar" onclick="finalizarExamen(false)">FINALIZAR</button>
         </div>
       </div>
