@@ -11,6 +11,7 @@ let tiempoRestanteSegundos = 0;
 let contadorActivado = false;
 let respuestasOcultasActivadas = true;
 let respuestaVisible = null;
+let configuracionEsPorMateria = false;
 
 const rutasBase = {
   ECOEMS: "preguntas/ecoems/",
@@ -278,16 +279,19 @@ function mostrarSimuladoresDeMateria(categoria, materia) {
   titulo.textContent = categoria + " - " + materia;
   contenedor.innerHTML = "";
 
-  for (let i = 1; i <= 3; i++) {
+  for (let i = 1; i <= 10; i++) {
     const boton = document.createElement("button");
-    boton.className = "boton-simulador-materia";
+    boton.className = "boton-simulador-materia simulador-pendiente";
     boton.textContent = "Simulador " + i;
+
+    const ruta = obtenerRutaSimuladorMateria(categoria, materia, i);
 
     boton.onclick = function () {
       abrirConfiguracionExamen(categoria, i, true, materia);
     };
 
     contenedor.appendChild(boton);
+    verificarJsonDisponible(ruta, boton);
   }
 
   mostrarSeccion("simuladoresMateria");
@@ -297,7 +301,20 @@ function regresarCategoria() {
   mostrarSeccion(ultimaCategoria);
 }
 
+function regresarDesdeConfiguracion() {
+  if (configuracionEsPorMateria && materiaActualSeleccionada) {
+    mostrarSimuladoresDeMateria(categoriaActual, materiaActualSeleccionada);
+    return;
+  }
+
+  mostrarSeccion("simuladores");
+}
+
 async function abrirConfiguracionExamen(categoria, numeroSimulador, esPorMateria = false, materia = "") {
+  configuracionEsPorMateria = esPorMateria;
+  categoriaActual = categoria;
+  if (esPorMateria) materiaActualSeleccionada = materia;
+
   const ruta = esPorMateria
     ? obtenerRutaSimuladorMateria(categoria, materia, numeroSimulador)
     : obtenerRutaSimulador(categoria, numeroSimulador);
@@ -402,6 +419,7 @@ function iniciarExamenDesdeConfig() {
   }
 
   mostrarSeccion("examen");
+  crearIndicePreguntas();
   cargarPregunta();
 }
 
@@ -411,6 +429,45 @@ function actualizarVistaContador() {
 
   document.getElementById("contador").textContent =
     String(minutos).padStart(2, "0") + ":" + String(segundos).padStart(2, "0");
+}
+
+function crearIndicePreguntas() {
+  const contenedor = document.getElementById("indicePreguntas");
+  if (!contenedor) return;
+
+  contenedor.innerHTML = "";
+
+  preguntas.forEach((pregunta, indice) => {
+    const boton = document.createElement("button");
+    boton.type = "button";
+    boton.className = "boton-indice-pregunta";
+    boton.textContent = indice + 1;
+    boton.setAttribute("aria-label", "Ir a la pregunta " + (indice + 1));
+    boton.onclick = function () {
+      irAPregunta(indice);
+    };
+    contenedor.appendChild(boton);
+  });
+
+  actualizarIndicePreguntas();
+}
+
+function actualizarIndicePreguntas() {
+  const botones = document.querySelectorAll("#indicePreguntas .boton-indice-pregunta");
+
+  botones.forEach((boton, indice) => {
+    boton.classList.toggle("actual", indice === preguntaActual);
+    const pregunta = preguntas[indice];
+    const respondida = pregunta && respuestasUsuario[pregunta.id] !== undefined;
+    boton.classList.toggle("respondida", respondida);
+  });
+}
+
+function irAPregunta(indice) {
+  if (indice < 0 || indice >= preguntas.length) return;
+  preguntaActual = indice;
+  cargarPregunta();
+  document.querySelector(".encabezado-examen")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function cargarPregunta() {
@@ -423,6 +480,7 @@ function cargarPregunta() {
     "Pregunta " + (preguntaActual + 1) + " de " + preguntas.length;
 
   respuestaVisible = null;
+  actualizarIndicePreguntas();
   mostrarPregunta();
   renderOpciones();
 }
@@ -559,6 +617,7 @@ function mostrarRespuestaEnFila(inciso) {
 function seleccionarRespuesta(inciso) {
   const pregunta = preguntas[preguntaActual];
   respuestasUsuario[pregunta.id] = inciso;
+  actualizarIndicePreguntas();
   renderOpciones();
 }
 
